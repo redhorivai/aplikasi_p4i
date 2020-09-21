@@ -1,0 +1,189 @@
+<?= $this->extend('front/layout/template'); ?>
+
+<?= $this->section('content'); ?>
+<!-- HEADER SECTION -->
+<section class="hero-page bg-black-3" style="padding:25px 0px;">
+  <div class="container">
+    <h1 class="h2" style="font-size:1.5rem;"><?= $title; ?></h1>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="<?= base_url('/'); ?>">Beranda</a></li>
+        <li class="breadcrumb-item"><a href="<?= base_url('/packages'); ?>">Semua Paket</a></li>
+        <li aria-current="page" class="breadcrumb-item active"><?= $title; ?></li>
+      </ol>
+    </nav>
+  </div>
+</section>
+<!-- END HEADER SECTION -->
+<!-- MAIN SECTION -->
+<section class="property-single bg-white">
+  <div class="container" style="max-width:1250px;">
+    <div class="row">
+      <div class="col-lg-7">
+        <!-- IMAGE -->
+        <div class="swiper-container gallery-top">
+          <div class="swiper-wrapper">
+            <div style="background: url(/assets/img/product1.jpg); background-size: cover;" class="swiper-slide"></div>
+            <div style="background: url(/assets/img/product2.jpg); background-size: cover;" class="swiper-slide"></div>
+            <div style="background: url(/assets/img/product3.jpg); background-size: cover;" class="swiper-slide"></div>
+            <div style="background: url(/assets/img/product4.jpg); background-size: cover;" class="swiper-slide"></div>
+          </div>
+        </div>
+        <div class="swiper-container gallery-thumbs">
+          <div class="swiper-wrapper">
+            <div style="background: url(/assets/img/product1.jpg); background-size: cover;" class="swiper-slide"></div>
+            <div style="background: url(/assets/img/product2.jpg); background-size: cover;" class="swiper-slide"></div>
+            <div style="background: url(/assets/img/product3.jpg); background-size: cover;" class="swiper-slide"></div>
+            <div style="background: url(/assets/img/product4.jpg); background-size: cover;" class="swiper-slide"></div>
+          </div>
+        </div>
+        <!-- END IMAGE -->
+      </div>
+
+      <!-- PRODUCT DESCRIPTION -->
+      <div class="col-lg-5">
+        <div class="property-single-author bg-black-3">
+          <div class="d-flex align-items-center">
+            <div class="text">
+              <strong style="font-size:1.5rem;">The Royal Convention Center</strong>
+              <span class="mb-3">Indoor, Wedding Organizer</span>
+            </div>
+          </div>
+          <h3 class="h4 has-line text-thin mb-4">Rp 127.500.000</h3>
+          <div style="color:#999;font-size:14px;">
+            <p>Fasilitas Gedung</p>
+            <ol>
+              <li>Panggung Uk. 12×5 m</li>
+              <li>Sound System 10.000 Watt</li>
+              <li>Lighting System</li>
+              <li>Ac 50 pk</li>
+              <li>Genset 150 KVA</li>
+              <li>Kursi Futura 700 unit</li>
+              <li>Ruang Vip Dgn 10 Round Table Dan 100 Kursi + Cover Kursi</li>
+              <li>Pemakaian Gedung Dari Pagi Hingga Siang Hari Dihari H</li>
+              <li>12 Set Sofa Vip + Meja Kaca</li>
+              <li>Screen & Projector</li>
+              <li>Keamanan & Kebersihan Gedung</li>
+              <li>Parkir Area Untuk 70 Mobil Di Halaman Gedung</li>
+              <li>Ruang Tunggu Pengantin</li>
+              <li>Ruang Ganti Pakaian Pengisi Acara</li>
+              <li>Keyboard + Singer</li>
+              <li>MC 2 Org</li>
+            </ol>
+            <p>Catering By Diraniga</p>
+            <ol>
+              <li>Catering Menu A (1.000 pax)</li>
+            </ol>
+            <p>Hiburan</p>
+            <ol>
+              <li>Tari Persembahan & Tari Kreasi</li>
+              <li>2 bh Songket Ibu</li>
+              <li>2 bh Pakaian Rumpak Tanjak Bapak Resepsi</li>
+              <li>2 bh Pakaian Rumpak Tanjak Keluarga Resepsi</li>
+            </ol>
+            <p>Akad</p>
+            <ol>
+              <li>Pakaian Akad By IDM, Ellegance, Topan Sapta</li>
+              <li>Pakaian Akad, Sunting, Melati</li>
+              <li>2 bh Songket Ibu Akad</li>
+              <li>2 bh Pakaian Rumpak Tanjak Bapak Akad</li>
+              <li>2 bh Pakaian Rumpak Tanjak Keluarga Akad</li>
+              <li>Pelaminan Akad By Success</li>
+            </ol>
+            <p>Resepsi</p>
+            <ol>
+              <li>Pelaminan Resepsi By Success</li>
+              <li>Pakaian Resepsi By IDM, Ellegance, Topan Sapta</li>
+              <li>Sunting, Melati</li>
+            </ol>
+            <p>Dokumentasi</p>
+            <ol>
+              <li>By Java, Next, Luminore, Figur, Ahtamidel</li>
+              <li>Photographer & Video Shooting Akad dan Resepsi</li>
+              <li>Free Foto Indoor By Next Studio</li>
+            </ol>
+            <p>Tata Rias By Miao, Ciqa Rizka</p>
+            <ol>
+              <li>Tata Rias Pengantin Akad dan Resepsi</li>
+              <li>Tata Rias Ibu Pengantin 4 Org</li>
+            </ol>
+            <p>Lain-lain:</p>
+            <ol>
+              <li>4 Buah Buku Tamu</li>
+              <li>Hias Kamar Pengantin By Success Wedding</li>
+              <li>Wo Akad dan Resepsi By Makna Wedding</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <!-- END PRODUCT DESCRIPTION -->
+    </div>
+
+    <!-- PRODUCT DETAILS -->
+    <div class="property-single-details bg-black-3 mt-5 block">
+      <h3 class="h4 has-line">Product Details</h3>
+      <div class="row">
+        <div class="col-lg-3"><strong>Property ID</strong><span>20142354</span></div>
+        <div class="col-lg-3"><strong>Type of location</strong><span>Apartment</span></div>
+        <div class="col-lg-3"><strong>Property status</strong><span>For sale</span></div>
+        <div class="col-lg-3"><strong>Price</strong><span>$560,000</span></div>
+        <div class="col-lg-3"><strong>Land area</strong><span>2356 sqft</span></div>
+        <div class="col-lg-3"><strong>Bathrooms</strong><span>03</span></div>
+        <div class="col-lg-3"><strong>Bedrooms</strong><span>05</span></div>
+        <div class="col-lg-3"><strong>Year built</strong><span>2010</span></div>
+      </div>
+    </div>
+    <!-- END PRODUCT DETAILS -->
+
+    <!-- PRODUCT DESCRIPTION -->
+    <!-- <div class="property-single-description bg-black-3 mt-5 block">
+      <h3 class="h4 has-line">Product Description </h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. LOLUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+      <p>LOLDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
+    </div> -->
+    <!-- END PRODUCT DESCRIPTION -->
+
+    <!-- PRODUCT FEATURES -->
+    <!-- <div class="property-single-features bg-black-3 mt-5 block">
+      <h3 class="h4 has-line">Product Features</h3>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="label-template-checkbox active">Swimming pool</div>
+        </div>
+        <div class="col-lg-3">
+          <div class="label-template-checkbox">Air conditioning</div>
+        </div>
+        <div class="col-lg-3">
+          <div class="label-template-checkbox active">Fireplace</div>
+        </div>
+        <div class="col-lg-3">
+          <div class="label-template-checkbox">Garage</div>
+        </div>
+        <div class="col-lg-3">
+          <div class="label-template-checkbox active">Balcony</div>
+        </div>
+        <div class="col-lg-3">
+          <div class="label-template-checkbox active">Wifi</div>
+        </div>
+        <div class="col-lg-3">
+          <div class="label-template-checkbox">Electric Range</div>
+        </div>
+        <div class="col-lg-3">
+          <div class="label-template-checkbox active">Laundry</div>
+        </div>
+      </div>
+    </div> -->
+    <!-- END PRODUCT FEATURES -->
+
+    <!-- PRODUCT VIDEO -->
+    <div class="property-single-video bg-black-3 mt-5 block">
+      <h3 class="h4 has-line">Video Wedding</h3>
+      <div class="video">
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/g3tB7aFoyjY?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+      </div>
+    </div>
+    <!-- END PRODUCT VIDEO -->
+  </div>
+</section>
+<!-- END DESCRIPTION SECTION -->
+<?= $this->endSection(); ?>

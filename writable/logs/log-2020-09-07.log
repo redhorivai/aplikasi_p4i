@@ -1,0 +1,8 @@
+CRITICAL - 2020-09-07 02:01:15 --> syntax error, unexpected '-', expecting '('
+#0 /var/www/html/momea/vendor/codeigniter4/framework/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('pages/all-categ...')
+#1 /var/www/html/momea/vendor/codeigniter4/framework/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('pages/all-categ...')
+#2 /var/www/html/momea/vendor/codeigniter4/framework/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /var/www/html/momea/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/momea/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/momea/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/m...')
+#6 {main}

@@ -1,0 +1,8 @@
+CRITICAL - 2020-09-11 13:00:40 --> Undefined property: stdClass::$type
+#0 /var/www/html/momeawedding/app/Controllers/Admin/Vendor.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/m...', 113, Array)
+#1 /var/www/html/momeawedding/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\vendor->formtambah()
+#2 /var/www/html/momeawedding/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\vendor))
+#3 /var/www/html/momeawedding/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/momeawedding/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/momeawedding/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/m...')
+#6 {main}

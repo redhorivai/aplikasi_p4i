@@ -1,0 +1,16 @@
+CRITICAL - 2020-08-17 14:13:20 --> Undefined variable: cek
+#0 /var/www/html/testCi4/app/Controllers/Admin/Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/t...', 27, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\Login->cek_login()
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}
+CRITICAL - 2020-08-17 14:13:21 --> Undefined variable: cek
+#0 /var/www/html/testCi4/app/Controllers/Admin/Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/t...', 27, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\Login->cek_login()
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}

@@ -1,0 +1,44 @@
+CRITICAL - 2020-08-14 11:08:18 --> Undefined variable: company
+#0 /var/www/html/testCi4/app/Views/admin/layout/v_menu.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/t...', 5, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/t...')
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/layout/v_...', Array, true)
+#3 /var/www/html/testCi4/app/Views/admin/layout/v_wrapper.php(4): view('admin/layout/v_...')
+#4 /var/www/html/testCi4/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/t...')
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/layout/v_...', Array, true)
+#6 /var/www/html/testCi4/app/Controllers/Admin/Dashboard.php(20): view('admin/layout/v_...', Array)
+#7 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\Dashboard->index()
+#8 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#9 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#12 {main}
+CRITICAL - 2020-08-14 11:08:24 --> Undefined variable: company
+#0 /var/www/html/testCi4/app/Views/admin/layout/v_menu.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/t...', 5, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/t...')
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/layout/v_...', Array, true)
+#3 /var/www/html/testCi4/app/Views/admin/layout/v_wrapper.php(4): view('admin/layout/v_...')
+#4 /var/www/html/testCi4/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/t...')
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/layout/v_...', Array, true)
+#6 /var/www/html/testCi4/app/Controllers/Admin/Product.php(19): view('admin/layout/v_...', Array)
+#7 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\Product->index()
+#8 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#9 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#12 {main}
+CRITICAL - 2020-08-14 11:14:49 --> Undefined index: company_nm
+#0 /var/www/html/testCi4/app/Controllers/Admin/Login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/t...', 35, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\Login->cek_login()
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}
+CRITICAL - 2020-08-14 11:14:53 --> Undefined index: company_nm
+#0 /var/www/html/testCi4/app/Controllers/Admin/Login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/t...', 35, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\Login->cek_login()
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}

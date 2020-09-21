@@ -1,0 +1,327 @@
+CRITICAL - 2020-08-03 11:10:07 --> Undefined index: id
+#0 /var/www/html/testCi4/app/Controllers/Admin/Login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/t...', 32, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\Login->cek_login()
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}
+CRITICAL - 2020-08-03 11:11:09 --> Undefined index: id
+#0 /var/www/html/testCi4/app/Controllers/Admin/Login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/t...', 32, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\Login->cek_login()
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Login))
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}
+CRITICAL - 2020-08-03 11:11:28 --> Undefined index: id
+#0 /var/www/html/testCi4/app/Views/admin/user/v_table.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/t...', 46, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/t...')
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/user/v_ta...', Array, true)
+#3 /var/www/html/testCi4/app/Controllers/Admin/User.php(30): view('admin/user/v_ta...', Array)
+#4 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\User->ambildata()
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#6 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#9 {main}
+CRITICAL - 2020-08-03 11:12:00 --> Undefined index: id
+#0 /var/www/html/testCi4/app/Controllers/Admin/User.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/t...', 122, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\User->formedit()
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}
+CRITICAL - 2020-08-03 11:12:28 --> Unknown column 'tbl_user.id' in 'where clause'
+#0 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/testCi4/app/Controllers/Admin/User.php(120): CodeIgniter\Model->find('2')
+#6 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\User->formedit()
+#7 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#8 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#11 {main}
+CRITICAL - 2020-08-03 11:12:48 --> Unknown column 'tbl_user.id' in 'where clause'
+#0 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/testCi4/app/Controllers/Admin/User.php(120): CodeIgniter\Model->find('2')
+#6 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\User->formedit()
+#7 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#8 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#11 {main}
+CRITICAL - 2020-08-03 11:18:31 --> Unknown column 'tbl_user.id' in 'where clause'
+#0 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/testCi4/app/Controllers/Admin/User.php(120): CodeIgniter\Model->find('2')
+#6 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\User->formedit()
+#7 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#8 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#11 {main}
+CRITICAL - 2020-08-03 11:19:33 --> Unknown column 'tbl_user.id' in 'where clause'
+#0 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/testCi4/app/Controllers/Admin/User.php(120): CodeIgniter\Model->find('2')
+#6 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\User->formedit()
+#7 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#8 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#11 {main}
+CRITICAL - 2020-08-03 11:20:47 --> Unknown column 'tbl_user.id' in 'where clause'
+#0 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/testCi4/app/Controllers/Admin/User.php(120): CodeIgniter\Model->find('2')
+#6 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\User->formedit()
+#7 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#8 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#11 {main}
+CRITICAL - 2020-08-03 11:38:22 --> Undefined index: user_id
+#0 /var/www/html/testCi4/app/Controllers/Admin/User.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/t...', 122, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\User->formedit()
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}
+CRITICAL - 2020-08-03 11:38:47 --> Undefined index: user_id
+#0 /var/www/html/testCi4/app/Controllers/Admin/User.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/t...', 122, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\User->formedit()
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}
+CRITICAL - 2020-08-03 11:41:03 --> Undefined index: user_id
+#0 /var/www/html/testCi4/app/Controllers/Admin/User.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/t...', 122, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\User->formedit()
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}
+CRITICAL - 2020-08-03 11:51:20 --> Unknown column 'id' in 'order clause'
+#0 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/testCi4/app/Models/ProductModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/testCi4/app/Controllers/Admin/Product.php(17): App\Models\ProductModel->get_product()
+#6 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\Product->index()
+#7 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#8 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#11 {main}
+CRITICAL - 2020-08-03 18:08:09 --> Unknown column 'tbl_product.id' in 'where clause'
+#0 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/testCi4/app/Controllers/Admin/Product.php(102): CodeIgniter\Model->find('1')
+#6 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\Product->formedit()
+#7 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#8 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#11 {main}
+CRITICAL - 2020-08-03 18:11:22 --> Allowed fields must be specified for model: App\Models\ProductModel
+#0 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Prod...')
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /var/www/html/testCi4/app/Controllers/Admin/Product.php(87): CodeIgniter\Model->insert(Array)
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\Product->simpandata()
+#4 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#8 {main}
+CRITICAL - 2020-08-03 18:13:30 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-03 18:13:46 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-08-03 18:27:51 --> Allowed fields must be specified for model: App\Models\ProductModel
+#0 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Prod...')
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /var/www/html/testCi4/app/Controllers/Admin/Product.php(87): CodeIgniter\Model->insert(Array)
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\Product->simpandata()
+#4 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Product))
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#8 {main}
+CRITICAL - 2020-08-03 20:04:02 --> Unknown column 'id' in 'order clause'
+#0 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/testCi4/app/Models/CategoryModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/testCi4/app/Controllers/Admin/Category.php(17): App\Models\CategoryModel->get_category()
+#6 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\Category->index()
+#7 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+#8 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#11 {main}
+CRITICAL - 2020-08-03 20:05:27 --> Unknown column 'id' in 'order clause'
+#0 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /var/www/html/testCi4/app/Models/CategoryModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/testCi4/app/Controllers/Admin/Category.php(17): App\Models\CategoryModel->get_category()
+#6 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\Category->index()
+#7 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+#8 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#11 {main}
+CRITICAL - 2020-08-03 20:07:05 --> Undefined index: id
+#0 /var/www/html/testCi4/app/Views/admin/category/v_table.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/var/www/html/t...', 22, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/t...')
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/category/...', Array, true)
+#3 /var/www/html/testCi4/app/Controllers/Admin/Category.php(30): view('admin/category/...', Array)
+#4 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\Category->ambildata()
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+#6 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#9 {main}
+CRITICAL - 2020-08-03 20:08:04 --> Undefined variable: id
+#0 /var/www/html/testCi4/app/Views/admin/category/v_modaledit.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/t...', 14, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/View/View.php(246): include('/var/www/html/t...')
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Common.php(1119): CodeIgniter\View\View->render('admin/category/...', Array, true)
+#3 /var/www/html/testCi4/app/Controllers/Admin/Category.php(108): view('admin/category/...', Array)
+#4 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\Category->formedit()
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+#6 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#9 {main}
+CRITICAL - 2020-08-03 20:08:43 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#1 /var/www/html/testCi4/app/Controllers/Admin/Category.php(137): CodeIgniter\Model->delete(NULL)
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\Category->hapusdata()
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+#4 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#7 {main}
+CRITICAL - 2020-08-03 20:09:29 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#1 /var/www/html/testCi4/app/Controllers/Admin/Category.php(137): CodeIgniter\Model->delete(NULL)
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\Category->hapusdata()
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+#4 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#7 {main}
+CRITICAL - 2020-08-03 20:10:05 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Model.php(977): CodeIgniter\Database\BaseBuilder->delete()
+#1 /var/www/html/testCi4/app/Controllers/Admin/Category.php(137): CodeIgniter\Model->delete(NULL)
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\Category->hapusdata()
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Category))
+#4 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#7 {main}
+CRITICAL - 2020-08-03 22:17:24 --> Undefined property: App\Controllers\Admin\User::$db
+#0 /var/www/html/testCi4/app/Controllers/Admin/User.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/t...', 139, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\User->updatedata()
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}
+CRITICAL - 2020-08-03 22:17:56 --> Undefined property: App\Controllers\Admin\User::$db
+#0 /var/www/html/testCi4/app/Controllers/Admin/User.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/var/www/html/t...', 139, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\User->updatedata()
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}
+CRITICAL - 2020-08-03 22:18:26 --> Undefined variable: db
+#0 /var/www/html/testCi4/app/Controllers/Admin/User.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/t...', 139, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\User->updatedata()
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}
+CRITICAL - 2020-08-03 22:28:29 --> Not unique table/alias: 'tbl_user'
+#0 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT `usernam...')
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2019): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 /var/www/html/testCi4/app/Controllers/Admin/User.php(143): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\User->updatedata()
+#6 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#7 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#10 {main}
+CRITICAL - 2020-08-03 22:38:34 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 /var/www/html/testCi4/app/Controllers/Admin/User.php(160): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/html/t...', 160, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\User->updatedata()
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}
+CRITICAL - 2020-08-03 22:38:52 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 /var/www/html/testCi4/app/Controllers/Admin/User.php(160): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/html/t...', 160, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\User->updatedata()
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}
+CRITICAL - 2020-08-03 22:46:51 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 /var/www/html/testCi4/app/Controllers/Admin/User.php(198): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/html/t...', 198, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\User->updatedata()
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}
+CRITICAL - 2020-08-03 22:58:08 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 /var/www/html/testCi4/app/Controllers/Admin/User.php(179): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/var/www/html/t...', 179, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\User->updatedata()
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}
+CRITICAL - 2020-08-03 22:58:35 --> Undefined variable: msg
+#0 /var/www/html/testCi4/app/Controllers/Admin/User.php(203): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/var/www/html/t...', 203, Array)
+#1 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Admin\User->updatedata()
+#2 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\User))
+#3 /var/www/html/testCi4/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /var/www/html/testCi4/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/testCi4/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/var/www/html/t...')
+#6 {main}
