@@ -24,7 +24,8 @@ class App extends BaseConfig
 	|
 	*/
 	public $baseURL = 'http://localhost:8080/';
-	// public $baseURL = 'http://192.168.200.49/momeawedding/public';
+	// public $baseURL = 'http://rsudpbari.palembang.go.id/';
+	// public $baseURL = 'http://192.168.56.52/rsudpbari.go.id/public';
 
 	/*
 	|--------------------------------------------------------------------------

@@ -31,9 +31,55 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+// $routes->get('/', 'Home::index');
+// $routes->get('/instalasi-it', 'Instalasi_IT::index');
+// $routes->get('/panel', 'Backend\Login::index');
+// $routes->get('/panel/dashboard', 'Backend\Dashboard::index');
+// $routes->get('/panel/slider', 'Backend\Slider::index');
+// $routes->get('/panel/imut', 'Backend\Imut::index');
+// $routes->get('/panel/standar-pelayanan', 'Backend\StandarPelayanan::index');
+// $routes->get('/panel/layanan-unggulan', 'Backend\LayananUnggulan::index');
+// $routes->get('/panel/informasi-dokter', 'Backend\Dokter::index');
+// $routes->get('/panel/informasi-tarif', 'Backend\Tarif::index');
+// $routes->get('/panel/artikel', 'Backend\Artikel::index');
+// $routes->get('/panel/alur-pelayanan', 'Backend\AlurPelayanan::index');
+// $routes->get('/panel/hak-kewajiban', 'Backend\HakKewajiban::index');
+// $routes->get('/panel/tata-tertib', 'Backend\TataTertib::index');
+// $routes->get('/panel/faq', 'Backend\FAQ::index');
+// $routes->get('/panel/produk', 'Backend\Produk::index');
+// $routes->get('/panel/changelog', 'Backend\Changelog::index');
+// $routes->get('/panel/pengguna', 'Backend\Pengguna::index');
+// $routes->get('/panel/lapor', 'Backend\Lapor::index');
+// $routes->get('/panel/report-pengaduan', 'Backend\Lapor::report_lapor');
+// $routes->get('/panel/item_fasilitas', 'Backend\Fasilitas::index');
+// $routes->get('/panel/instansi', 'Backend\Instansi::index');
+// $routes->get('/panel/mcu', 'Backend\Mcu::index');
+// $routes->get('/syarat-ketentuan', 'Syarat::index');
+// $routes->get('/kebijakan-privasi', 'Privasi::index');
+
 $routes->get('/', 'Home::index');
-$routes->get('/Admin', 'Admin\Login::index');
-// $routes->get('/Admin', 'Admin\Dashboard::index');
+$routes->get('/panel', 'Backend\Login::index');
+$routes->get('/daftar', 'Backend\Daftar::index');
+$routes->get('/panel/dashboard', 'Backend\Dashboard::index');
+$routes->get('/panel/kegiatan', 'Backend\Kegiatan::index');
+$routes->get('/panel/premi', 'Backend\Premi::index');
+$routes->get('/panel/kegiatanmember', 'Backend\Kegiatanmember::index');
+$routes->get('/panel/pengumuman', 'Backend\Pengumuman::index');
+$routes->get('/panel/ebook', 'Backend\Ebook::index');
+$routes->get('/panel/profile', 'Backend\Profile::index');
+// $routes->get('/panel/rekappremi', 'Backend\Rekappremi::index');
+// $routes->get('/instalasi-it', 'Instalasi_IT::index');
+$routes->get('/panel', 'Backend\Login::index');
+$routes->get('/panel/dashboard', 'Backend\Dashboard::index');
+$routes->get('/panel/artikel', 'Backend\Artikel::index');
+$routes->get('/panel/pengguna', 'Backend\Pengguna::index');
+$routes->get('/panel/rekap-premi', 'Backend\Rekap::rekap_premi');
+$routes->get('/panel/rekap-kegiatan', 'Backend\Rekap::index');
+// $routes->get('/panel/report-pengaduan', 'Backend\Lapor::report_lapor');
+// $routes->get('/panel/instansi', 'Backend\Instansi::index');
+// $routes->get('/panel/periode', 'Backend\Periode::index');
+
+// $routes->get('/detail_artikel/(:any)/(:num)', 'Informasi::detail_artikel/$1/$2');
 /**
  * --------------------------------------------------------------------
  * Additional Routing
