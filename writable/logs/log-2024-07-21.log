@@ -617,3 +617,5 @@ INFO - 2024-07-21 22:46:50 --> Session: Class initialized using 'CodeIgniter\Ses
 WARNING - 2024-07-21 22:46:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
 INFO - 2024-07-21 22:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 WARNING - 2024-07-21 22:46:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-07-21 22:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-21 22:55:38 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
