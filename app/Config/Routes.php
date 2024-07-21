@@ -39,8 +39,6 @@ $routes->get('/Admin', 'Admin\Login::index');
  * Additional Routing
  * --------------------------------------------------------------------
  *
-// $routes->get('/coba/index', 'Coba::index');
-// $routes->get('/coba/(:any)/(:num)', 'Coba::about/$1/$2');
  * There will often be times that you need additional routing and you
  * need it to be able to override any defaults in this file. Environment
  * based routes is one such time. require() additional route files here
