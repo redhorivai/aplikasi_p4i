@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Models\Backend\InfoModel;
 use App\Models\Backend\LayananModel;
 use App\Models\Backend\ArtikelModel;
 use App\Models\Backend\PenggunaModel;
@@ -12,6 +13,7 @@ use App\Libraries\Date\DateFunction;
 
 class Informasi extends BaseController
 {
+    protected $m_info;
     protected $m_layanan;
     protected $m_artikel;
     protected $m_pengguna;
@@ -20,6 +22,7 @@ class Informasi extends BaseController
     protected $session;
     public function __construct()
     {
+        $this->m_info  = new InfoModel();
         $this->m_layanan  = new LayananModel();
         $this->m_artikel  = new ArtikelModel();
         $this->m_pengguna = new PenggunaModel();
@@ -217,5 +220,36 @@ class Informasi extends BaseController
         ];
         return view('front/pages/informasi/ebook', $data);
         // print_r($data);
+    }
+    public function faq()
+    {
+        $faq = $this->m_info->getByTypeLimit('faq', 0);
+        $resAccordion = "";
+        if (count($faq)){
+            $resAccordion .= "<div class='col-md-8'><div id='accordion1' class='panel-group accordion'>";
+            foreach ($faq as $res){
+                $resAccordion .= "<div class='panel'>
+                                   <div class='panel-title'> 
+                                    <a data-parent='#accordion1' data-toggle='collapse' href='#".$res->info_id."' class='collapsed' aria-expanded='false'> <span class='open-sub'></span> Q. ".$res->info_title."</a> 
+                                   </div>
+                                   <div id='".$res->info_id."' class='panel-collapse collapse' role='tablist' aria-expanded='false' style='height: 0px;'>
+                                    <div class='panel-content'>
+                                     <p>".$res->info_desc."</p>
+                                    </div>
+                                   </div>
+                                  </div>";
+            }
+            $resAccordion .= "</div></div>";
+        } else {
+            $resAccordion .= "<h5 class='text-center'><em>Belum ada data yang diposting.</em></h5>";
+        }
+        $data = [
+            'title'         => 'FAQ',
+            'menu'          => 'faq',
+            'resAccordion'  => $resAccordion,
+            'artikelFooter' => $this->m_artikel->getLimit('3'),
+            'dataInstansi'  => $this->m_instansi->getInstansi(),
+        ];
+        return view('front/pages/informasi/faq', $data);
     }
 }

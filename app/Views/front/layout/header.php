@@ -52,11 +52,12 @@
                   <li><a href="<?= base_url('/profil/visimisi'); ?>">Visi dan Misi</a></li>
                 </ul>
               </li>
-              <li class="<?php if ($menu == 'informasi' || $menu == 'artikel' || $menu == 'ebook') { echo 'active'; } ?>">
+              <li class="<?php if ($menu == 'informasi' || $menu == 'artikel' || $menu == 'ebook' || $menu == 'faq') { echo 'active'; } ?>">
                 <a href="javascript:void(0)">Informasi</a>
                 <ul class="dropdown">
-                  <li><a href="<?= base_url('/informasi/artikel'); ?>">Artikel</a></li>
+                  <li><a href="<?= base_url('/informasi/artikel'); ?>">Artikel/Berita</a></li>
                   <li><a href="<?= base_url('/informasi/ebook'); ?>">Ebook </a></li>
+                  <li><a href="<?= base_url('/informasi/faq'); ?>">Frequently Ask & Question </a></li>
                 </ul>
               </li>
               <li class="<?php if ($menu == 'kontak') { echo 'active'; } ?>">

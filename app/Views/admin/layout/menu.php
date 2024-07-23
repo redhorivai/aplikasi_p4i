@@ -15,7 +15,7 @@
       </li>
 
       <?php if (session()->get('level') != 'User') { ?>
-      <li class="<?php if ($active == "artikel" || $active == "pengumuman" || $active == "ebook" ) { echo "active";} ?>">
+      <li class="<?php if ($active == "artikel" || $active == "pengumuman" || $active == "ebook" || $active == "faq") { echo "active";} ?>">
         <a href="javascript:void(0)">
           <i class="fa fa-book"></i> <span>Konten</span>
           <i class="fa fa-angle-left pull-right"></i>
@@ -30,6 +30,9 @@
           <li class="<?php if ($active == "ebook") { echo "aktif";} ?>">
                 <a href="<?= base_url('panel/ebook') ?>">- E-book</a>
           </li>
+          <li class="<?php if ($active == "faq") { echo "aktif";} ?>">
+                <a href="<?= base_url('panel/faq') ?>">- Frequently Ask & Question</a>
+              </li>
         </ul>
       </li>
       <?php } ?>

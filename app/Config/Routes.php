@@ -49,6 +49,8 @@ $routes->get('/panel/artikel', 'Backend\Artikel::index');
 $routes->get('/panel/pengguna', 'Backend\Pengguna::index');
 $routes->get('/panel/rekap-premi', 'Backend\Rekap::rekap_premi');
 $routes->get('/panel/rekap-kegiatan', 'Backend\Rekap::index');
+$routes->get('/panel/faq', 'Backend\FAQ::index');
+
 
 // $routes->get('/detail_artikel/(:any)/(:num)', 'Informasi::detail_artikel/$1/$2');
 /**

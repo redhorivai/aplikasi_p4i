@@ -47,8 +47,8 @@ $app = require rtrim($paths->systemDirectory, '/ ') . '/bootstrap.php';
 $console = new \CodeIgniter\CLI\Console($app);
 
 // We want errors to be shown when using it from the CLI.
-error_reporting(-1);
-ini_set('display_errors', 1);
+error_reporting(0);
+ini_set('display_errors', 0);
 
 // Show basic information before we do anything else.
 $console->showHeader();
