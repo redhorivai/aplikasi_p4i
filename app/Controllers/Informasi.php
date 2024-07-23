@@ -47,28 +47,27 @@ class Informasi extends BaseController
                     $kategori = "Helminthologi";
                 } else if ($res->kategori == "entomologi") {
                     $kategori = "Entomologi";
-                }
-                else if ($res->kategori == "zoonosis") {
+                } else if ($res->kategori == "zoonosis") {
                     $kategori = "Zoonosis";
                 } else {
                     $kategori = "Tropis";
-                } 
-                $resTitle .= "<a href='#".$res->kategori."' class='list-group-item smooth-scroll-to-target'><h5><b>".$kategori."</b></h5></a>";
-                $resContent .= "<div id='".$res->kategori."' class='mb-50'>
-                                <h3 class='title mt-0 mb-30 line-bottom'>".$kategori."</h3>";
+                }
+                $resTitle .= "<a href='#" . $res->kategori . "' class='list-group-item smooth-scroll-to-target'><h5><b>" . $kategori . "</b></h5></a>";
+                $resContent .= "<div id='" . $res->kategori . "' class='mb-50'>
+                                <h3 class='title mt-0 mb-30 line-bottom'>" . $kategori . "</h3>";
                 foreach ($detail as $res) {
                     $resContent .= "
                                     <div class='icon-box mb-0' style='border: solid 1px #DDD; border-radius: 4px;'>
                                     <article class='post clearfix maxwidth600 mb-30'>
                                     <div class='entry-header'>
                                     <div class='post-thumb thumb'> 
-                                    <img src='".base_url()."/image/artikel/".$res->thumbnail_nm."' class='img-responsive img-fullwidth'> 
+                                    <img src='" . base_url() . "/image/artikel/" . $res->thumbnail_nm . "' class='img-responsive img-fullwidth'> 
                                     </div>
                                     </div>
-                                    <h4 class='icon-box-title pl-30 pt-15 mt-0 mb-0'>".$res->title."</h4>
+                                    <h4 class='icon-box-title pl-30 pt-15 mt-0 mb-0'>" . $res->title . "</h4>
                                     <div class='row'>
                                     <div class='col-md-12'>
-                                    <p class='text-gray pl-30 pr-30'>".$res->description."</p>
+                                    <p class='text-gray pl-30 pr-30'>" . $res->description . "</p>
                                     </div>
                                     </div>
                                     </div>";
@@ -79,7 +78,7 @@ class Informasi extends BaseController
             $resContent .= "</div>";
         } else {
             $resContent .= "<h5 class='text-center'><em>Belum ada data yang diposting.</em></h5>";
-        } 
+        }
         $data = [
             'title'         => 'Artikel / Berita',
             'menu'          => 'artikel',
@@ -98,7 +97,7 @@ class Informasi extends BaseController
             $user = $this->m_pengguna->getByID($res->created_user);
             foreach ($user as $data) {
                 $level = $data->level;
-                if($level == "Super User"){
+                if ($level == "Super User") {
                     $nama = "Admin";
                 } else {
                     $nama = "Anggota P4i";
@@ -109,25 +108,25 @@ class Informasi extends BaseController
             } else {
                 $banner = "<img src='" . base_url() . "/image/thumbnail/800x600.png' class='img-responsive img-fullwidth'>";
             }
-            
+
             $tgl = date('d', strtotime($res->created_dttm));
             $bln = date('M', strtotime($res->created_dttm));
-            $g = array("",$res->banner_nm,$res->banner_nm2,$res->banner_nm3,$res->banner_nm4,$res->banner_nm5,$res->banner_nm6);
-            
+            $g = array("", $res->banner_nm, $res->banner_nm2, $res->banner_nm3, $res->banner_nm4, $res->banner_nm5, $res->banner_nm6);
+
             $resDetail .= "
             <div class='col-md-9'>
                 <div class='blog-posts single-post'>
                     <article class='post clearfix mb-0' style='border-bottom:none !important;'>
                         <div class='entry-header'>
                         <div class='post-thumb thumb'>";
-                        for ($i = 1; $i <= 6; $i++) {
-                            if ($g[$i] != "800x600.png"){
-                            $resDetail .= "<div class='mySlides'>
-                                           <div class='numbertext'>".$i." / 6</div>
-                                           <img src='".base_url()."/image/artikel/".$g[$i]."' style='width:100%'>
+            for ($i = 1; $i <= 6; $i++) {
+                if ($g[$i] != "800x600.png") {
+                    $resDetail .= "<div class='mySlides'>
+                                           <div class='numbertext'>" . $i . " / 6</div>
+                                           <img src='" . base_url() . "/image/artikel/" . $g[$i] . "' style='width:100%'>
                                            </div>";
-                            }
-                        }            
+                }
+            }
             $resDetail .= "
                       <a class='prev' onclick='plusSlides(-1)'>❮</a>
                       <a class='next' onclick='plusSlides(1)'>❯</a>
@@ -135,14 +134,14 @@ class Informasi extends BaseController
                       <div class='caption-container'>
                         <p style='margin-bottom:0 !important;padding-top:5px;padding-bottom:5px;' id='caption'></p>
                       </div>";
-                      
-                      for ($i = 1; $i <= 6; $i++) {
-                        if ($g[$i] != "800x600.png"){
-                        $resDetail .= "<div class='column'>
-                                       <img class='demo cursor' src='".base_url()."/image/artikel/".$g[$i]."' style='width:100%;' onclick='currentSlide(".$i.")' alt='RSUD Palembang BARI'>
+
+            for ($i = 1; $i <= 6; $i++) {
+                if ($g[$i] != "800x600.png") {
+                    $resDetail .= "<div class='column'>
+                                       <img class='demo cursor' src='" . base_url() . "/image/artikel/" . $g[$i] . "' style='width:100%;' onclick='currentSlide(" . $i . ")' alt='RSUD Palembang BARI'>
                                        </div>";
-                        }
-                      }
+                }
+            }
             $resDetail .= "            
                         </div>
                         </div>
@@ -150,8 +149,8 @@ class Informasi extends BaseController
                         <div class='entry-meta media no-bg no-border mt-15 pb-20'>
                             <div class='entry-date media-left text-center flip bg-theme-colored pt-5 pr-15 pb-5 pl-15'>
                             <ul>
-                                <li class='font-16 text-white font-weight-600'>".$tgl."</li>
-                                <li class='font-12 text-white text-uppercase'>".$bln."</li>
+                                <li class='font-16 text-white font-weight-600'>" . $tgl . "</li>
+                                <li class='font-12 text-white text-uppercase'>" . $bln . "</li>
                             </ul>
                             </div>
                             <div class='media-body pl-15'>
@@ -161,7 +160,7 @@ class Informasi extends BaseController
                                 </h3>
                                 <span class='mb-10 text-gray-darkgray mr-10 font-13'>
                                 <i class='fa fa-pencil mr-5 text-theme-colored'></i> 
-                                Diposting oleh ".$nama."</span>
+                                Diposting oleh " . $nama . "</span>
                             </div>
                             </div>
                         </div>
@@ -190,11 +189,12 @@ class Informasi extends BaseController
             $resTitle .= "<div class='col-md-3 scrolltofixed-container'><div class='list-group scrolltofixed z-index-0 mt-40'>";
             $resContent .= "<div class='col-md-9'>";
             foreach ($alur as $res) {
-                $resContent .= "<div id='".$res->id."' class='mb-50'>
-                                <h3 class='title mt-0 mb-30 line-bottom'>E-Book</h3>";
-                    $resContent .= "
+                // $resContent .= "<div id='".$res->id."' class='mb-50'>
+                //                 <h3 class='title mt-0 mb-30 line-bottom'>E-Book</h3>";
+                $resContent .= "
+                                    <div id='" . $res->id . "'>
                                     <div class='icon-box mb-0' style='border: solid 1px #DDD; border-radius: 4px;'>
-                                    <h4 class='icon-box-title pl-30 pt-15 mt-0 mb-0'><a href=" . $res->link . " target = '_blank'>".$res->judul."</a></h4>
+                                    <p class='icon-box-title pl-30 pt-15 mt-0 mb-0'><span style='color:red;-webkit-font-smoothing:auto'>klik disini -> </span><a style='color:#337ab7;text-decoration:none;-webkit-font-smoothing:auto'href=" . $res->link . " target = '_blank'>" . $res->judul . "</a></p>
                                     <div class='row'>
                                     <div class='col-md-12'>
                                     </div>
@@ -206,15 +206,16 @@ class Informasi extends BaseController
             $resContent .= "</div>";
         } else {
             $resContent .= "<h5 class='text-center'><em>Belum ada data yang diposting.</em></h5>";
-        } 
+        }
         $data = [
-            'title'         => 'Ebook',
-            'menu'          => 'pasien',
+            'title'         => 'Kumpulan Ebook',
+            'menu'          => 'ebook',
             'resTitle'      => $resTitle,
             'resContent'    => $resContent,
             'artikelFooter' => $this->m_artikel->getLimit('3'),
             'dataInstansi'  => $this->m_instansi->getInstansi(),
         ];
         return view('front/pages/informasi/ebook', $data);
+        // print_r($data);
     }
 }

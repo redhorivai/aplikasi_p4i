@@ -26,7 +26,7 @@
         <div class="row">
           <div class="col-md-8">
             <h3 class="text-gray mt-0 mt-sm-30 mb-0">Selamat Datang Di</h3>
-            <h2 class="text-dark mt-0">Perkumpulan Pemberantasan Penyakit Parasitik Indoesia (P4I)</h2>
+            <h2 class="text-dark mt-0">Perkumpulan Pemberantasan Penyakit Parasitik Indonesia (P4I)</h2>
             <ul class="list theme-colored angle-double-right">
               <li>Didirikan pada tanggal  31 Januari 1976 oleh para pendiri antara lain : dr. Adyatma, MPH, Menteri Kesehatan , Prof.dr. Bintari Roekmono, Dept. Parasitologi FKUI- RSCM. FK –UGM , FK -UNAIR</li>
               <li>Para anggauta P4I adalah para ahli parasitologi dan para pemerhati di bidang parasitologi dan Penyakit Infeksi Tropis </li>

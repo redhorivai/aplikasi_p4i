@@ -6,14 +6,6 @@ use CodeIgniter\Model;
 
 class DaftarModel extends Model
 {
-    // public function cekUsername($username)
-    // {
-    //     $query = $this->db->table('bcms_users');
-    //     $query->select('*');
-    //     $query->where('username', $username);
-    //     $return = $query->get();
-    //     return $return->getResult();
-    // }
     public function NomorID($no_id)
     {
         $query = $this->db->table('bcms_users');
