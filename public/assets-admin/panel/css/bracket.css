@@ -40405,7 +40405,7 @@ a.hover-white-8:hover, a.hover-white-8:focus {
   font-size: 13px;
 }
 .card-dokter {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
   max-width: 300px;
   margin: auto;
   text-align: center;

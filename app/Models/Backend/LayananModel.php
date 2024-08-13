@@ -134,6 +134,27 @@ class LayananModel extends Model
         $query->set($data);
         return $query->update();
     }
+    public function Insertsaran ($data){
+        $query = $this->db->table('bcms_saran');
+        $ret = $query->insert($data);
+        return $ret ;
+    }
+    public function getSaran (){
+        $query = $this->db->table('bcms_saran');
+        $query->select('*');
+        $query->where('status_cd', 'normal');
+        $query->orderBy('id', 'DESC');
+        $return = $query->get();
+        return $return->getResult();
+
+    }
+    public function softDelSaran($id, $data)
+    {
+        $query = $this->db->table('bcms_saran');
+        $query->where('id', $id);
+        $query->set($data);
+        return $query->update();
+    }
     // public function getItemByKat($kat)
     // {
     //     $query = $this->db->table('bcms_fasilitas_layanan a');

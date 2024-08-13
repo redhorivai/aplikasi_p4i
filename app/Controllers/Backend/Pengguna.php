@@ -3,15 +3,21 @@
 namespace App\Controllers\Backend;
 
 use App\Controllers\BaseController;
+use App\Models\Backend\KtaModel;
 use App\Models\Backend\PenggunaModel;
+use App\Libraries\Date\DateFunction;
+
 
 class Pengguna extends BaseController
 {
     protected $m_pengguna;
+    protected $m_kta;
     protected $session;
     public function __construct()
     {
         $this->m_pengguna = new PenggunaModel();
+        $this->m_kta = new KtaModel();
+        $this->date = new DateFunction();
         $this->session = \Config\Services::session();
         $this->session->start();
     }
@@ -34,11 +40,11 @@ class Pengguna extends BaseController
         if (count($res) > 0) {
             foreach ($res as $data) {
                 if (empty($data->avatar) && $data->gender == 'L') {
-                    $foto = "<img src='".base_url()."/assets-admin/panel/images/users/male.png' class='wd-40 ht-40 rounded-circle'>";
+                    $foto = "<img src='" . base_url() . "/assets-admin/panel/images/users/male.png' class='wd-40 ht-40 rounded-circle'>";
                 } else if (empty($data->avatar) && $data->gender == 'P') {
-                    $foto = "<img src='".base_url()."/assets-admin/panel/images/users/female.png' class='wd-40 ht-40 rounded-circle'>";
+                    $foto = "<img src='" . base_url() . "/assets-admin/panel/images/users/female.png' class='wd-40 ht-40 rounded-circle'>";
                 } else {
-                    $foto = "<img src='".base_url()."/assets-admin/panel/images/users/$data->avatar' class='wd-40 ht-40 rounded-circle'>";
+                    $foto = "<img src='" . base_url() . "/assets-admin/panel/images/users/$data->avatar' class='wd-40 ht-40 rounded-circle'>";
                 }
                 if ($data->status_acc == 'active') {
                     $status = "<span class='square-8 bg-info rounded-circle'></span> Aktif";
@@ -58,7 +64,7 @@ class Pengguna extends BaseController
                                 </label>
                                 </div>",
                     'col'   => "<div class='d-flex align-items-center'>
-                                 ".$foto."
+                                 " . $foto . "
                                  <div class='mg-l-15'>
                                  <div class='tx-inverse'>$data->name</div>
                                  <p class='mb-0 tx-13'>
@@ -73,7 +79,10 @@ class Pengguna extends BaseController
                                  </div>
                                  </div>",
                     'action' => "<div class='dropdown tx-center'>
-                                 ".$button."
+                                <button type='button' class='btn btn-warning tx-white' onclick='_digital_kta(\"$data->user_id\")'>
+                                 <i class='icon-book-open'></i>
+                                 </button>
+                                 " . $button . "
                                  <a href='javascript:void(0);' data-toggle='dropdown' class='btn btn-outline-secondary tx-gray'>
                                  <i class='icon-grid' style='vertical-align:inherit;'></i>
                                  </a>		
@@ -307,7 +316,7 @@ class Pengguna extends BaseController
                                 $('#viewData').delay(100).fadeIn();
                               });
                              </script>";
-                    return $ret;  
+                    return $ret;
                 }
             }
         } else {
@@ -332,7 +341,7 @@ class Pengguna extends BaseController
                 'username'     => $username,
                 'nik'          => $nik,
                 'tempat_lahir' => $tempat_lahir,
-                'tanggal_lahir'=> $tanggal_lahir,
+                'tanggal_lahir' => $tanggal_lahir,
                 'gender'       => $gender,
                 'email'        => $email,
                 'phone'        => $phone,
@@ -344,7 +353,7 @@ class Pengguna extends BaseController
                 'created_dttm' => date('Y-m-d H:i:s'),
             ];
             $insert = $this->m_pengguna->insertData($data);
-            if ($insert == true) {    
+            if ($insert == true) {
                 $msg = "Sukses";
             } else {
                 $msg = "Username: <b class='text-danger'>$username</b> sudah ada, silahkan coba yang lain.";
@@ -373,7 +382,7 @@ class Pengguna extends BaseController
                 'username'     => $username,
                 'nik'          => $nik,
                 'tempat_lahir' => $tempat_lahir,
-                'tanggal_lahir'=> $tanggal_lahir,
+                'tanggal_lahir' => $tanggal_lahir,
                 'gender'       => $gender,
                 'email'        => $email,
                 'phone'        => $phone,
@@ -383,7 +392,7 @@ class Pengguna extends BaseController
                 'updated_dttm' => date('Y-m-d H:i:s'),
             ];
             $update = $this->m_pengguna->updateData($id, $data);
-            if ($update == true) {    
+            if ($update == true) {
                 $msg = "Sukses";
             } else {
                 $msg = "Username: <b class='text-danger'>$username</b> sudah ada, silahkan coba yang lain.";
@@ -450,7 +459,7 @@ class Pengguna extends BaseController
         if ($this->request->isAJAX()) {
             $id = $this->request->getPost('user_id');
             $jmldata = count($id);
-            for ($i = 0; $i < $jmldata; $i++){
+            for ($i = 0; $i < $jmldata; $i++) {
                 $data = [
                     'nullified_user' => session()->get('user_id'),
                     'nullified_dttm' => date('Y-m-d H:i:s'),
@@ -458,8 +467,48 @@ class Pengguna extends BaseController
                 ];
                 $this->m_pengguna->updateData($id[$i], $data);
             }
-            $msg = ['sukses' => '<b style="margin-left:10px;"> '.$jmldata.' data</b> pengguna telah dihapus.'];
+            $msg = ['sukses' => '<b style="margin-left:10px;"> ' . $jmldata . ' data</b> pengguna telah dihapus.'];
             echo json_encode($msg);
+        } else {
+            exit('Request Error');
+        }
+    }
+    public function digital_kta()
+    {
+        if ($this->request->isAJAX()) {
+            $id      = $this->request->getPost('user_id');
+            print_r($id);
+            // $user_id      = session()->get('user_id');
+            $ekta = $this->m_kta->getIDKta($id);
+            // print_r($ekta);
+
+            $ret = "";
+            $no = 1;
+            foreach ($ekta as $key) {
+                $ret .= "<div class='modal-dialog modal-lg' role='document'>
+                         <div class='modal-content'>
+                         <div class='modal-header' style='margin-bottom:30px;'>
+                         <h5 class='text-center text-dark w-100'><b>".$key->name."</b><br><small class='w-100' style='font-size:12px;color:#888;'>Admin | ".$this->date->panjang($key->created_dttm)."</small></h5>
+                         </div>
+                         <div class='col-md-6'>
+                            <div class='card-dokter'>
+                                <img src='".base_url()."/assets-admin/panel/images/kta/kta_card.jpg' style='width:235%'>
+                                <div id='card_id' style='position: fixed;left: 230px;font-size: 18px;color: #000;top: 229px;font-weight: 500;'>$key->no_anggota</div>
+                                <div id='card_id' style='position: fixed;left: 230px;font-size: 18px;color: #000;top: 255px;font-weight: 500;'>$key->name</div>
+                                <div id='card_id' style='position: fixed;left: 230px;font-size: 16px;color: #000;top: 285px;font-weight: 500;'>$key->address</div>
+                                <div id='card_id' style='position: fixed;left: 230px;font-size: 18px;color: #000;top: 329px;font-weight: 500;'>$key->cabang</div>
+                          <img src='".base_url()."/assets-front/images/logo/$key->photo' style='max-height: 100%;max-width:170px;position:fixed;top:225px;left:552px; '>
+                            </div>
+                          </div>
+                         <div class='modal-footer'>
+                         <button type='button' class='btn btn-block btn-light' data-dismiss='modal' style='font-size:11px;'>Tutup
+                         </button>
+                         </div>
+                         </div>
+                         </div>";
+                         
+            }
+            return $ret;
         } else {
             exit('Request Error');
         }

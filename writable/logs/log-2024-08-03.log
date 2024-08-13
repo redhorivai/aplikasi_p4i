@@ -1,0 +1,1186 @@
+INFO - 2024-08-03 00:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 00:16:59 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 00:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 00:47:00 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:16:25 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:23:00 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:23:02 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:25:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:25:37 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:25:40 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:26:01 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:26:04 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:28:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:28:08 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:28:11 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:28:21 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:29:35 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:29:45 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:29:56 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:30:04 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:30:13 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:30:25 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:30:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:30:41 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:30:47 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:46:31 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:48:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:48:34 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 01:48:34 --> Call to a member function set() on null
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-03 01:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:51:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 01:51:07 --> Call to a member function set_option() on null
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-03 01:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:52:56 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:53:30 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:55:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:55:45 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:56:16 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:56:19 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:56:31 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:57:09 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:58:00 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:58:02 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:58:08 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:58:15 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 01:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:58:31 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 01:58:31 --> Call to undefined method Dompdf\Dompdf::option()
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-03 01:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:58:47 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 01:58:47 --> Argument 1 passed to Dompdf\Dompdf::setOptions() must be an instance of Dompdf\Options, string given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 110
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(110): Dompdf\Dompdf->setOptions('isRemoteEnabled', true)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 01:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 01:58:59 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 02:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:10:36 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 02:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:12:15 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 02:12:15 --> Call to undefined method Dompdf\Dompdf::set()
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-03 02:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:13:42 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 02:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:13:57 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 02:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:15:45 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 02:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:15:46 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 02:15:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:15:47 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 02:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:17:45 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 02:17:45 --> Class 'App\Controllers\Backend\Options' not found
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-03 02:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:17:58 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 02:17:58 --> Call to undefined method Dompdf\Dompdf::setIsRemoteEnabled()
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-03 02:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:18:11 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 02:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:23:09 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 02:23:09 --> Class 'App\Controllers\Backend\Options' not found
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-03 02:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:23:23 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 02:23:23 --> Call to undefined method Dompdf\Dompdf::set()
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-03 02:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:28:01 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 02:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:31:30 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 02:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:37:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 02:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:39:29 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 02:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:44:04 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 02:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:48:16 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 02:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:48:44 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 02:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:48:52 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 02:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:49:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 02:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:50:20 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 02:51:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 02:51:17 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 04:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 04:27:12 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 08:35:46 --> Class 'App\Models\Backend\InstansiModel' not found
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-03 08:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 08:35:49 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 08:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 08:36:00 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 08:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 08:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 08:36:28 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 08:36:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 08:36:57 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 09:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:06:29 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 09:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:14:44 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 09:14:44 --> file_get_contents(/assets-admin/panel/images/kta/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/usr/local/var/...', 98, Array)
+#1 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(98): file_get_contents('/assets-admin/p...')
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#7 {main}
+INFO - 2024-08-03 09:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:14:47 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 09:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:15:20 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 09:15:20 --> file_get_contents(/assets-admin/panel/images/kta/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/usr/local/var/...', 98, Array)
+#1 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(98): file_get_contents('/assets-admin/p...')
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#7 {main}
+INFO - 2024-08-03 09:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:15:48 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 09:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:17:59 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 09:17:59 --> file_get_contents(/assets-admin/panel/images/kta/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/usr/local/var/...', 98, Array)
+#1 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(98): file_get_contents('/assets-admin/p...')
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#7 {main}
+INFO - 2024-08-03 09:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:22:37 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 09:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:22:47 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 09:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:23:23 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 09:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:23:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 09:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:24:08 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 09:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:24:09 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 09:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:24:34 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 09:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:25:39 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 09:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:26:08 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 09:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:28:46 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 09:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:28:57 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 09:30:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:30:17 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 09:30:17 --> Permission denied on <img src="/assets-admin/panel/images/kta/kta.jpg">: The file extension is forbidden.
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(158): Dompdf\Dompdf->loadHtmlFile('<img src="/asse...')
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 09:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:31:23 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 09:31:23 --> Permission denied on <img src="/assets-admin/panel/images/kta/kta.jpg">: The file extension is forbidden.
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(158): Dompdf\Dompdf->loadHtmlFile('<img src="/asse...')
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 09:34:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:34:29 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 09:34:29 --> Permission denied on 1: The file extension is forbidden.
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(159): Dompdf\Dompdf->loadHtmlFile(true)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+CRITICAL - 2024-08-03 09:38:33 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/usr/local/var/...')
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+CRITICAL - 2024-08-03 09:38:34 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/usr/local/var/...')
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+CRITICAL - 2024-08-03 09:38:35 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/usr/local/var/...')
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+CRITICAL - 2024-08-03 09:39:11 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/usr/local/var/...')
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-03 09:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:40:05 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 09:40:05 --> Call to a member function set() on null
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-03 09:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:40:06 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 09:40:06 --> Call to a member function set() on null
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-03 09:40:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:40:13 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 09:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:40:35 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 09:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:41:04 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 09:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:41:15 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 09:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:44:43 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 09:44:44 --> mb_convert_encoding(): Unable to detect character encoding
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mb_convert_enco...', '/usr/local/var/...', 497, Array)
+#1 /usr/local/var/www/app-p4i/vendor/dompdf/dompdf/src/Dompdf.php(497): mb_convert_encoding('<meta charset="...', 'UTF-8', 'auto')
+#2 /usr/local/var/www/app-p4i/vendor/dompdf/dompdf/src/Dompdf.php(387): Dompdf\Dompdf->loadHtml('<meta charset="...', NULL)
+#3 /usr/local/var/www/app-p4i/vendor/dompdf/dompdf/src/Dompdf.php(326): Dompdf\Dompdf->loadHtmlFile('https://www.rev...')
+#4 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(103): Dompdf\Dompdf->load_html_file('https://www.rev...')
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#7 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#10 {main}
+INFO - 2024-08-03 09:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:44:48 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 09:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:46:04 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 09:47:04 --> File 'http://localhost:8080/assets-admin/panel/images/kta/kta.jpg' not found.
+#0 /usr/local/var/www/app-p4i/vendor/dompdf/dompdf/src/Dompdf.php(326): Dompdf\Dompdf->loadHtmlFile('http://localhos...')
+#1 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(103): Dompdf\Dompdf->load_html_file('http://localhos...')
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#7 {main}
+INFO - 2024-08-03 09:47:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:47:29 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 09:48:29 --> File 'http://localhost:8080/assets-admin/panel/images/kta/kta.jpg' not found.
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(103): Dompdf\Dompdf->loadHtmlFile('http://localhos...')
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 09:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:52:19 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 09:52:19 --> Permission denied on 1: The file extension is forbidden.
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(103): Dompdf\Dompdf->loadHtmlFile(true)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 09:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:52:28 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 09:52:28 --> Permission denied on <img src="/assets-admin/panel/images/kta/kta.jpg">: The file extension is forbidden.
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(103): Dompdf\Dompdf->loadHtmlFile('<img src="/asse...')
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 09:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:52:43 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 09:52:43 --> Permission denied on <img src="/assets-admin/panel/images/kta/kta.jpg">: The file extension is forbidden.
+#0 /usr/local/var/www/app-p4i/vendor/dompdf/dompdf/src/Dompdf.php(326): Dompdf\Dompdf->loadHtmlFile('<img src="/asse...')
+#1 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(103): Dompdf\Dompdf->load_html_file('<img src="/asse...')
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#7 {main}
+INFO - 2024-08-03 09:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:52:49 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 09:52:49 --> Permission denied on <img src="/assets-admin/panel/images/kta/kta.jpg">: The file extension is forbidden.
+#0 /usr/local/var/www/app-p4i/vendor/dompdf/dompdf/src/Dompdf.php(326): Dompdf\Dompdf->loadHtmlFile('<img src="/asse...')
+#1 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(103): Dompdf\Dompdf->load_html_file('<img src="/asse...')
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#7 {main}
+INFO - 2024-08-03 09:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:53:00 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 09:53:00 --> Permission denied on <img src="/assets-admin/panel/images/kta/kta.jpg">: The file extension is forbidden.
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(103): Dompdf\Dompdf->loadHtmlFile('<img src="/asse...')
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 09:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:53:30 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 09:53:30 --> Permission denied on 1: The file extension is forbidden.
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(103): Dompdf\Dompdf->loadHtmlFile(true)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 09:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 09:53:51 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:02:14 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 10:02:14 --> file_get_contents(/assets-admin/panel/images/kta/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/usr/local/var/...', 97, Array)
+#1 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(97): file_get_contents('/assets-admin/p...')
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#7 {main}
+INFO - 2024-08-03 10:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:02:20 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 10:02:20 --> file_get_contents(/assets-admin/panel/images/kta/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/usr/local/var/...', 97, Array)
+#1 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(97): file_get_contents('/assets-admin/p...')
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#7 {main}
+INFO - 2024-08-03 10:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:02:23 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 10:02:23 --> file_get_contents(/assets-admin/panel/images/kta/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/usr/local/var/...', 97, Array)
+#1 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(97): file_get_contents('/assets-admin/p...')
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#7 {main}
+INFO - 2024-08-03 10:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:03:44 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:10:11 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 10:10:11 --> file_get_contents(/assets-admin/panel/images/kta/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/usr/local/var/...', 97, Array)
+#1 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(97): file_get_contents('/assets-admin/p...')
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#7 {main}
+INFO - 2024-08-03 10:14:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:14:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 10:14:33 --> file_get_contents(/assets-admin/panel/images/kta/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/usr/local/var/...', 100, Array)
+#1 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(100): file_get_contents('/assets-admin/p...')
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#7 {main}
+INFO - 2024-08-03 10:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:14:49 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:17:49 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:22:10 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:23:53 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:24:51 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:26:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:26:46 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:27:46 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:28:46 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:30:02 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:31:03 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:31:37 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:38:30 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:42:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:42:55 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:42:59 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:43:01 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:43:14 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:43:15 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:43:19 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:46:08 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 10:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 10:46:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 11:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:01:05 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 11:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:06:27 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 11:06:28 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 143
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(143): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 11:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:08:28 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 11:09:28 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 143
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(143): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 11:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:10:57 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 11:10:57 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 145
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(145): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 11:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:11:14 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 11:11:14 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 145
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(145): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 11:12:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:12:25 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 11:12:26 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 145
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(145): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 11:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:14:16 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 11:14:17 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 145
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(145): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 11:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:17:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 11:17:23 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 145
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(145): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 11:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:17:58 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 11:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:18:01 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 11:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:31:41 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 11:32:41 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 146
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(146): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 11:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:32:41 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 11:33:41 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 146
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(146): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 11:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:33:53 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 11:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:35:25 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 11:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:35:46 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 11:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:37:14 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 11:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:39:36 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 11:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:42:16 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 11:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:42:28 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 11:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:42:40 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 11:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:42:53 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 11:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:44:02 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 11:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:44:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 11:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:46:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 11:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:46:56 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 11:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:47:08 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 11:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:48:02 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 11:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:49:37 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 11:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:59:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 11:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 11:59:29 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 12:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:00:51 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:00:52 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 149
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(149): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:01:25 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:03:25 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 150
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(150): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:04:39 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 12:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:04:44 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:04:45 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 150
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(150): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:05:44 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:05:45 --> Unsupported operand types
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(149): Mpdf\Mpdf->Image('https://redhori...', Array, 'jpg', 1.745467322558, true, false)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:05:57 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:05:58 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 151
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(151): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:22:12 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 12:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:33:35 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:33:37 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 151
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(151): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:33:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:33:51 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 151
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(151): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:34:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:34:07 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 151
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(151): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:36:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:36:05 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:36:05 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 151
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(151): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:37:13 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:37:13 --> Argument 1 passed to Mpdf\Mpdf::__construct() must be of the type array, string given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 141
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(141): Mpdf\Mpdf->__construct('utf-8', Array)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:37:41 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:37:41 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 150
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(150): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:38:08 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:38:08 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 150
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(150): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:38:16 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:38:16 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 150
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(150): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:38:26 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:38:26 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 150
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(150): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:38:36 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:38:36 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 150
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(150): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:39:18 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:39:20 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 149
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(149): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:40:31 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:40:32 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 145
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(145): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:45:20 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:45:22 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 147
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(147): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:45:57 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:45:59 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 149
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(149): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:49:08 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:49:10 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 149
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(149): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:51:04 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:51:06 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 149
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(149): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:52:28 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 12:52:30 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 149
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(149): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 12:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:55:47 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 12:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 12:55:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 13:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 13:25:48 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 13:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 13:55:49 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 16:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 16:47:06 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 16:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 16:47:06 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 18:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:07:31 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 18:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:07:42 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 18:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:07:47 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 18:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 18:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:07:53 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 18:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:07:56 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 18:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:08:36 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 18:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:09:32 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 18:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:09:36 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 18:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:13:34 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 18:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:24:48 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 18:25:00 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 109
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(109): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+CRITICAL - 2024-08-03 18:29:56 --> Class 'App\Models\Backend\InstansiModel' not found
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-03 18:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:30:00 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 18:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:30:04 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 18:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-03 18:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:30:10 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 18:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:30:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 18:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:30:34 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 18:30:39 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 109
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(109): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 18:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:31:16 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 18:31:19 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 109
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(109): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 18:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:34:28 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 18:34:31 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 112
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(112): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 18:35:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:35:01 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 18:35:03 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 111
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(111): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 18:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:35:20 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 18:35:22 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 112
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(112): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 18:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:35:59 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 18:36:01 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 111
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(111): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 18:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:41:32 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 18:41:34 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 112
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(112): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 18:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:41:55 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 18:41:57 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 112
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(112): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 18:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:43:02 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 18:43:05 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 112
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(112): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 18:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:43:47 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 18:43:49 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 112
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(112): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 18:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:44:14 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 18:44:16 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 112
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(112): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 18:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:51:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 18:51:11 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 110
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(110): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 18:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:51:51 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 18:51:54 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 109
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(109): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 18:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:52:34 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 18:52:36 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 109
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(109): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 18:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:52:54 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 18:52:55 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 109
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(109): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 18:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:53:30 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 18:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:57:17 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 18:57:22 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 112
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(112): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 18:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:58:12 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 18:58:15 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 112
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(112): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 18:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:58:59 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 18:59:02 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 112
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(112): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 18:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 18:59:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-03 18:59:37 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php on line 112
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(112): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#6 {main}
+INFO - 2024-08-03 19:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 19:00:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 19:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 19:30:34 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 20:00:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 20:00:34 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 20:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 20:30:35 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 21:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 21:00:36 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 23:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 23:17:13 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-03 23:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-03 23:17:13 --> Session: Sessions is enabled, and one exists.Please don't $session->start();

@@ -45,7 +45,7 @@
                           <input type="checkbox" id="checkAll"><span></span>
                         </label> 
                       </th>
-                      <th class="tx-center">Artikel/Berita</th>
+                      <th class="tx-center">Artikel</th>
                       <th class="wd-10p tx-center">Aksi</th>
                     </tr>
                   </thead>

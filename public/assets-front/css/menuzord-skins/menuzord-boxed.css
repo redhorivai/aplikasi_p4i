@@ -60,14 +60,14 @@ Boxed Skin
 .menuzord.red .menuzord-menu > li.active > a, 
 .menuzord.red .menuzord-menu > li:hover > a, 
 .menuzord.red .menuzord-menu ul.dropdown li:hover > a{ 
-	background: #f1a357;
+	background: #E12531;
 	color: #fff;
 }
 /* orange */
 .menuzord.orange .menuzord-menu > li.active > a, 
 .menuzord.orange .menuzord-menu > li:hover > a, 
 .menuzord.orange .menuzord-menu ul.dropdown li:hover > a{ 
-	background: #ff853f;
+	background: #E12531;
 	color: #fff;
 }
 /* yellow */

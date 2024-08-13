@@ -508,4 +508,20 @@
             }
         });
     }
+    function _digital_kta(user_id) {
+        $.ajax({
+            url: "<?= site_url('Backend/Pengguna/digital_kta') ?>",
+            type: "POST",
+            data: {
+                user_id: user_id
+            },
+            success: function(response) {
+                $('#modaldetail').html(response);
+                $('#modaldetail').modal('show');
+            },
+            error: function(xhr, ajaxOptions, thrownError) {
+                alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
+            },
+        });
+    }
 </script>

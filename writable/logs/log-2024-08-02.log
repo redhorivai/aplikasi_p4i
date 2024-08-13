@@ -1,0 +1,600 @@
+INFO - 2024-08-02 11:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:21:35 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:21:40 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-02 11:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-02 11:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:40:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:41:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:41:20 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:50:08 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:50:32 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:51:09 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:52:35 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:53:34 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:54:45 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:54:47 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:55:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:55:53 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:56:37 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:56:38 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:57:14 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:57:16 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:58:05 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:58:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:58:35 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:59:00 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:59:26 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 11:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 11:59:28 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 12:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:04:35 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:04:35 --> getimagesize(/assets-admin/panel/images/kta/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(/a...', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('/assets-admin/p...')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('/assets-admin/p...')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(107): App\Libraries\fpdf\FPDF->Image('/assets-admin/p...', 10, 10, 180, 50)
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 12:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:04:43 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:04:43 --> getimagesize(/assets-admin/panel/images/kta/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(/a...', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('/assets-admin/p...')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('/assets-admin/p...')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(107): App\Libraries\fpdf\FPDF->Image('/assets-admin/p...', 10, 10, 180, 50)
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 12:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:04:48 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:04:48 --> getimagesize(/assets-admin/panel/images/kta/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(/a...', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('/assets-admin/p...')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('/assets-admin/p...')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(107): App\Libraries\fpdf\FPDF->Image('/assets-admin/p...', 10, 10, 180, 50)
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 12:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:04:56 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 12:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:05:40 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:05:40 --> getimagesize(/assets-admin/panel/images/kta/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(/a...', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('/assets-admin/p...')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('/assets-admin/p...')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(107): App\Libraries\fpdf\FPDF->Image('/assets-admin/p...')
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 12:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:07:42 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:07:42 --> getimagesize(/assets-admin/panel/images/kta/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(/a...', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('/assets-admin/p...')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('/assets-admin/p...')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(108): App\Libraries\fpdf\FPDF->Image('/assets-admin/p...')
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 12:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:07:43 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:07:43 --> getimagesize(/assets-admin/panel/images/kta/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(/a...', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('/assets-admin/p...')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('/assets-admin/p...')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(108): App\Libraries\fpdf\FPDF->Image('/assets-admin/p...')
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 12:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:07:45 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:07:45 --> getimagesize(/assets-admin/panel/images/kta/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(/a...', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('/assets-admin/p...')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('/assets-admin/p...')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(108): App\Libraries\fpdf\FPDF->Image('/assets-admin/p...')
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 12:08:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:08:16 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 12:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:11:47 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:11:47 --> Class 'App\Controllers\Backend\PDF_Code39' not found
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-02 12:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:12:10 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:12:10 --> Class 'App\Libraries\fpdf\fpdf' not found
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-02 12:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:12:11 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:12:11 --> Class 'App\Libraries\fpdf\fpdf' not found
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-02 12:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:12:36 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 12:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:13:10 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 12:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:13:19 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 12:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:13:35 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 12:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:15:46 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:15:46 --> getimagesize(/assets-admin/panel/images/kta/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(/a...', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('/assets-admin/p...')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('/assets-admin/p...')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(111): App\Libraries\fpdf\FPDF->Image('/assets-admin/p...', 100, 15, 35, 35)
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 12:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:16:09 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:16:09 --> getimagesize(/assets-admin/panel/images/kta/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(/a...', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('/assets-admin/p...')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('/assets-admin/p...')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(111): App\Libraries\fpdf\FPDF->Image('/assets-admin/p...', 100, 15, 35, 35)
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 12:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:19:51 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 12:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:21:12 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 12:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:21:49 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 12:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:22:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 12:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:23:14 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:23:14 --> getimagesize(images/depan_cetak.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(im...', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('images/depan_ce...')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('images/depan_ce...')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(109): App\Libraries\fpdf\FPDF->Image('images/depan_ce...', 10, 10, 180, 50)
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 12:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:24:00 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:24:00 --> getimagesize(images/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(im...', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('images/kta.jpg')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('images/kta.jpg')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(109): App\Libraries\fpdf\FPDF->Image('images/kta.jpg', 10, 10, 180, 50)
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 12:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:24:26 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:24:26 --> getimagesize(panel/images/kta/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(pa...', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('panel/images/kt...')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('panel/images/kt...')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(109): App\Libraries\fpdf\FPDF->Image('panel/images/kt...', 10, 10, 180, 50)
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 12:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:24:39 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:24:39 --> getimagesize(/assets-admin/panel/images/kta/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(/a...', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('/assets-admin/p...')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('/assets-admin/p...')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(109): App\Libraries\fpdf\FPDF->Image('/assets-admin/p...', 10, 10, 180, 50)
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 12:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:25:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:25:33 --> getimagesize(/assets-admin/panel/images/kta/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(/a...', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('/assets-admin/p...')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('/assets-admin/p...')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(107): App\Libraries\fpdf\FPDF->Image('/assets-admin/p...', 10, 10, 180, 50)
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 12:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:25:38 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 12:26:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:26:02 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:26:02 --> getimagesize(images/depan_cetak.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(im...', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('images/depan_ce...')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('images/depan_ce...')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(108): App\Libraries\fpdf\FPDF->Image('images/depan_ce...', 10, 10, 180, 50)
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 12:26:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:26:11 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 12:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:28:33 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:28:33 --> getimagesize(images/depan_cetak.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(im...', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('images/depan_ce...')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('images/depan_ce...')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(108): App\Libraries\fpdf\FPDF->Image('images/depan_ce...', 10, 10, 180, 50)
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 12:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:29:27 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 12:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:32:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:32:22 --> getimagesize(../images/depan_cetak.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(.....', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('../images/depan...')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('../images/depan...')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(109): App\Libraries\fpdf\FPDF->Image('../images/depan...', 10, 10, 180, 50)
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 12:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:34:23 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 12:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:34:30 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:34:30 --> getimagesize(/assets-admin/panel/images/kta/kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(/a...', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('/assets-admin/p...')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('/assets-admin/p...')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(108): App\Libraries\fpdf\FPDF->Image('/assets-admin/p...', 10, 10, 180, 50)
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 12:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:35:36 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 12:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:36:16 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 12:36:16 --> Class 'App\Libraries\fpdf\Exception' not found
+#0 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(823): App\Libraries\fpdf\FPDF->Error('Image file name...')
+#1 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(117): App\Libraries\fpdf\FPDF->Image(NULL)
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#7 {main}
+INFO - 2024-08-02 12:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 12:36:24 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 15:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 15:17:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 15:17:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 15:17:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 23:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:14:44 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 23:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:14:44 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 23:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:14:50 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 23:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-02 23:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:16:22 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 23:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:16:25 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 23:16:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:16:39 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 23:16:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:16:47 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 23:16:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:16:52 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 23:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-02 23:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:16:57 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 23:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:17:02 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 23:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:20:40 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:20:40 --> getimagesize(kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(kt...', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('kta.jpg')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('kta.jpg')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(107): App\Libraries\fpdf\FPDF->Image('kta.jpg', 40, 35, 20, 20)
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 23:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:25:03 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:25:03 --> Call to undefined method App\Controllers\Backend\KTA::AddPage()
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-02 23:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:26:14 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:26:14 --> getimagesize(kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(kt...', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('kta.jpg')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('kta.jpg')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(107): App\Libraries\fpdf\FPDF->Image('kta.jpg', 40, 35, 20, 20)
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 23:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:27:59 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:27:59 --> getimagesize(kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(kt...', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('kta.jpg')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('kta.jpg')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(107): App\Libraries\fpdf\FPDF->Image('kta.jpg', 40, 35, 20, 20)
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 23:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:30:20 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:30:20 --> getimagesize(kta.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'getimagesize(kt...', '/usr/local/var/...', 1167, Array)
+#1 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(1167): getimagesize('kta.jpg')
+#2 /usr/local/var/www/app-p4i/app/Libraries/fpdf/fpdf.php(838): App\Libraries\fpdf\FPDF->_parsejpg('kta.jpg')
+#3 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(107): App\Libraries\fpdf\FPDF->Image('kta.jpg', 40, 35, 20, 20)
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#5 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#9 {main}
+INFO - 2024-08-02 23:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:32:55 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:32:55 --> Class 'App\Controllers\Backend\PDF_Code39' not found
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-02 23:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:33:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:33:07 --> Class 'App\Controllers\Backend\PDF_Code39' not found
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-02 23:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:34:04 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:34:04 --> Class 'App\Libraries\fpdf\fpdf' not found
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-02 23:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:34:05 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:34:05 --> Class 'App\Libraries\fpdf\fpdf' not found
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-02 23:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:34:15 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:34:15 --> Class 'App\Libraries\fpdf\fpdf' not found
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-02 23:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:35:26 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:35:26 --> App\Controllers\Backend\KTA::print_kta(): Failed opening required 'fpdf/Code39.php' (include_path='.:/usr/local/Cellar/php@7.4/7.4.33_6/share/php@7.4/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2024-08-02 23:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:35:27 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:35:27 --> App\Controllers\Backend\KTA::print_kta(): Failed opening required 'fpdf/Code39.php' (include_path='.:/usr/local/Cellar/php@7.4/7.4.33_6/share/php@7.4/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2024-08-02 23:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:35:43 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:35:43 --> App\Controllers\Backend\KTA::print_kta(): Failed opening required 'fpdf/Code39.php' (include_path='.:/usr/local/Cellar/php@7.4/7.4.33_6/share/php@7.4/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2024-08-02 23:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:36:10 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:36:10 --> include(fpdf/Code39.php): failed to open stream: No such file or directory
+#0 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(fpdf/Co...', '/usr/local/var/...', 106, Array)
+#1 /usr/local/var/www/app-p4i/app/Controllers/Backend/KTA.php(106): include()
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#3 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#7 {main}
+INFO - 2024-08-02 23:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:37:36 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:37:36 --> Class 'App\Controllers\Backend\PDF_Code39' not found
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-02 23:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:37:37 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:37:37 --> Class 'App\Controllers\Backend\PDF_Code39' not found
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-02 23:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:39:11 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:39:11 --> Class 'PDF_Code39' not found
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-02 23:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:39:46 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:39:46 --> Class 'PDF_Code39' not found
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-02 23:40:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:40:37 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:40:37 --> Class 'App\Libraries\fpdf\fpdf\PDF_Code39' not found
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-02 23:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:40:42 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:40:42 --> Class 'App\Libraries\fpdf\fpdf\PDF_Code39' not found
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-02 23:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:41:59 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:41:59 --> Class 'PDF_Code39' not found
+#0 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(918): App\Controllers\Backend\KTA->print_kta()
+#1 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\KTA))
+#2 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /usr/local/var/www/app-p4i/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 /usr/local/var/www/app-p4i/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(34): require_once('/usr/local/var/...')
+#5 {main}
+INFO - 2024-08-02 23:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:43:02 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:43:02 --> App\Controllers\Backend\KTA::print_kta(): Failed opening required 'fpdf/Code39.php' (include_path='.:/usr/local/Cellar/php@7.4/7.4.33_6/share/php@7.4/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2024-08-02 23:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:44:59 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:44:59 --> App\Controllers\Backend\KTA::print_kta(): Failed opening required 'Code39.php' (include_path='.:/usr/local/Cellar/php@7.4/7.4.33_6/share/php@7.4/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2024-08-02 23:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:45:07 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:45:07 --> App\Controllers\Backend\KTA::print_kta(): Failed opening required 'Code39.php' (include_path='.:/usr/local/Cellar/php@7.4/7.4.33_6/share/php@7.4/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2024-08-02 23:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:45:37 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:45:37 --> App\Controllers\Backend\KTA::print_kta(): Failed opening required 'code39.php' (include_path='.:/usr/local/Cellar/php@7.4/7.4.33_6/share/php@7.4/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+INFO - 2024-08-02 23:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:46:58 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+INFO - 2024-08-02 23:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-02 23:47:17 --> Session: Sessions is enabled, and one exists.Please don't $session->start();
+CRITICAL - 2024-08-02 23:47:17 --> App\Controllers\Backend\KTA::print_kta(): Failed opening required 'code39.php' (include_path='.:/usr/local/Cellar/php@7.4/7.4.33_6/share/php@7.4/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

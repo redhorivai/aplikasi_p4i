@@ -52,14 +52,21 @@
                   <li><a href="<?= base_url('/profil/visimisi'); ?>">Visi dan Misi</a></li>
                 </ul>
               </li>
-              <li class="<?php if ($menu == 'informasi' || $menu == 'artikel' || $menu == 'ebook' || $menu == 'faq') { echo 'active'; } ?>">
+              <li class="<?php if ($menu == 'informasi' || $menu == 'berita' || $menu == 'artikel' || $menu == 'edukasi'  || $menu == 'ebook' || $menu == 'faq') { echo 'active'; } ?>">
                 <a href="javascript:void(0)">Informasi</a>
                 <ul class="dropdown">
-                  <li><a href="<?= base_url('/informasi/artikel'); ?>">Artikel/Berita</a></li>
+                  <li><a href="<?= base_url('/informasi/berita'); ?>">Berita</a></li>
+                  <li><a href="<?= base_url('/informasi/artikel'); ?>">Artikel</a></li>
+                  <li><a href="<?= base_url('/informasi/edukasi'); ?>">Edukasi</a></li>
                   <li><a href="<?= base_url('/informasi/ebook'); ?>">Ebook </a></li>
                   <li><a href="<?= base_url('/informasi/faq'); ?>">Frequently Ask & Question </a></li>
                 </ul>
               </li>
+              <li class="<?php if ($menu == 'saran') {
+                          echo 'active';
+                        } ?>">
+              <a href="<?= base_url('/layanansaran'); ?>">Layanan Pertanyaan</a>
+            </li>
               <li class="<?php if ($menu == 'kontak') { echo 'active'; } ?>">
                 <a href="<?= base_url('/kontak'); ?>">Kontak</a>
               </li>

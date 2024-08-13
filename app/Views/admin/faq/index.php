@@ -33,7 +33,7 @@
                 </div>
                 <!-- END BUTTON ADD -->
                 <!-- TABLE -->
-                <?= form_open('Backend/TataTertib/multi_del', ['class' => 'formMultiDelete']) ?>
+                <?= form_open('Backend/FAQ/multi_del', ['class' => 'formMultiDelete']) ?>
                 <table id="viewTable" class="table display responsive w-100">
                   <thead>
                     <tr>

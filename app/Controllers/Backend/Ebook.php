@@ -126,7 +126,7 @@ class Ebook extends BaseController
                     csrf_field();
                     $ret .= "
                     <form class='form-data form-layout-1 forms'>
-                    <input type='text' name='id' id='id' value='$key->id'>
+                    <input type='hidden' name='id' id='id' value='$key->id'>
                         <div class='row'>
                         <div class='col-lg-6'>
                             <div class='form-group'>

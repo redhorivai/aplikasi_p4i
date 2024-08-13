@@ -33,6 +33,12 @@ if ($active == 'pengguna') {
     echo view ('admin/tarif/js');
 } else if ($active == 'artikel') {
     echo view ('admin/artikel/js');
+} else if ($active == 'berita') {
+    echo view ('admin/berita/js');
+} else if ($active == 'edukasi') {
+    echo view ('admin/edukasi/js');
+} else if ($active == 'kta') {
+    echo view ('admin/kta/js');
 } else if ($active == 'alur_pelayanan') {
     echo view ('admin/alur_pelayanan/js');
 } else if ($active == 'hak_kewajiban') {
@@ -43,8 +49,6 @@ if ($active == 'pengguna') {
     echo view ('admin/faq/js');
 } else if ($active == 'produk') {
     echo view ('admin/produk/js');
-} else if ($active == 'instansi') {
-    echo view ('admin/instansi/js');
 } else if ($active == 'item_fasilitas') {
         echo view ('admin/item_fasilitas/js');
 } else if ($active == 'slider') {
@@ -55,6 +59,8 @@ if ($active == 'pengguna') {
     echo view ('admin/periode/js');
 } else if ($active == 'lapor' || $active == 'reportlapor') {
     echo view ('admin/lapor/js');
+} else if ($active == 'saran') {
+    echo view ('admin/saran/js');
 }
 ?>
 <script type="text/javascript">
@@ -67,30 +73,4 @@ if ($active == 'pengguna') {
         showConfirmButton: false,
         timer            : 3000,
     });
-    // SELECT2
-    // $(".select2").select2();
-    // SELECT2 ORDERING DATATABLES
-    // $(function() {
-    //     $('.dataTables_length select').select2({
-    //     minimumResultsForSearch: Infinity
-    //     });
-    // });
-    // LOGO
-    // const API_URL = 'http://localhost:8082';
-    // $(document).ready(function() {
-    //     _getLogoApp()
-    // })
-    // function _getLogoApp() {
-    //     $.ajax({
-    //         url: API_URL + `/conApp/ambil_logo`,
-    //         dataType: "json",
-    //         success: function(response) {
-    //             const logo = response.logo
-    //             const path = `${API_URL}/assets-admin/${logo}`
-    //             document.getElementById("logo").src = path
-    //         },
-    //         error: function(xhr, ajaxOptions, thrownError) {
-    //         },
-    //     });
-    // }
 </script>

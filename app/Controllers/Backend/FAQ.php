@@ -169,7 +169,7 @@ class FAQ extends BaseController
             $info_title = ucwords($this->request->getPost('info_title'));
             $info_desc  = $this->request->getPost('info_desc');
             $data = [
-                'info_kat'     => 'hak_kewajiban',
+                'info_kat'     => 'faq',
                 'info_title'   => ucwords($info_title),
                 'info_desc'    => $info_desc,
                 'status_cd'    => 'normal',

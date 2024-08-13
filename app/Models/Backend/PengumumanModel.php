@@ -51,26 +51,6 @@ class PengumumanModel extends Model
         $query->set($data);
         return $query->update();
     }
-    // public function getBerita()
-    // {
-    //     $query = $this->db->table('bcms_artikel');
-    //     $query->select('*');
-    //     $query->where('type', 'berita');
-    //     $query->where('status_cd', 'normal');
-    //     $query->orderBy('artikel_id', 'DESC');
-    //     $return = $query->get();
-    //     return $return->getResult();
-    // }
-    // public function getSlider()
-    // {
-    //     $query = $this->db->table('bcms_artikel');
-    //     $query->select('*');
-    //     $query->where('type', 'slider');
-    //     $query->where('status_cd', 'normal');
-    //     $query->orderBy('artikel_id', 'DESC');
-    //     $return = $query->get();
-    //     return $return->getResult();
-    // }
     // public function getByID($id)
     // {
     //     $query = $this->db->table('bcms_artikel');

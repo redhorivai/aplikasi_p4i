@@ -27,7 +27,7 @@ class Artikel extends BaseController
             return redirect()->to(base_url('/panel'));
         }
         $data = [
-            'title'  => 'Artikel/Berita',
+            'title'  => 'Artikel',
             'active' => 'artikel',
         ];
         return view('admin/artikel/index', $data);
@@ -42,9 +42,12 @@ class Artikel extends BaseController
                 foreach ($user as $res) {
                     $admin = $res->name;
                 }
-                if ($data->type == "artikel"){
+                if ($data->type == "edukasi"){
+                    $type = "Edukasi";
+                } elseif ($data->type == "artikel") {
                     $type = "Artikel";
-                } else {
+                }
+                 else {
                     $type = "Berita";
                 }
                 $output[] = array(
@@ -106,7 +109,6 @@ class Artikel extends BaseController
                         <select class='form-control select2' id='type' name='type' data-placeholder='-- Pilih Kategori --' data-allow-clear='true' style='width:100%' onchange='remove(id)'>
                         <option value=''></option>
                         <option value='artikel'>Artikel</option>
-                        <option value='berita'>Berita</option>
                         </select>
                         </div>
                     </div>
@@ -115,7 +117,6 @@ class Artikel extends BaseController
                         <label class='form-control-label tx-bold'>Tipe Artikel: <span class='tx-danger'>*</span></label>
                         <select class='form-control select2' id='kategori' name='kategori' data-placeholder='-- Pilih Tipe --' data-allow-clear='true' style='width:100%' onchange='remove(id)'>
                         <option value=''></option>
-                        <option value='bukan'>Bukan Artikel</option>
                         <option value='protozoa'>Protozoa</option>
                         <option value='helminthologi'>Helminthologi</option>
                         <option value='entomologi'>Entomologi</option>
@@ -208,7 +209,8 @@ class Artikel extends BaseController
                           });
                          </script>";
                 return $ret;
-            } else {
+            } 
+            else {
                 $res = $this->m_artikel->getByID($id);
                 foreach ($res as $key) {
                     $ret = "<div class='br-section-wrapper'><h6 class='tx-gray-800 tx-uppercase tx-bold tx-14 mg-b-0'>Form Update Data</h6><p class='mg-b-20 tx-12 tx-gray-600'>Semua kolom yang bertanda (<b class='text-danger'>*</b>) harus diisi.</p>";

@@ -46,10 +46,16 @@ $routes->get('/panel/profile', 'Backend\Profile::index');
 $routes->get('/panel', 'Backend\Login::index');
 $routes->get('/panel/dashboard', 'Backend\Dashboard::index');
 $routes->get('/panel/artikel', 'Backend\Artikel::index');
+$routes->get('/panel/berita', 'Backend\Berita::index');
+$routes->get('/panel/edukasi', 'Backend\Edukasi::index');
+$routes->get('/panel/kta', 'Backend\KTA::index');
+$routes->get('/panel/kta/print_kta', 'Backend\KTA::print_kta');
 $routes->get('/panel/pengguna', 'Backend\Pengguna::index');
 $routes->get('/panel/rekap-premi', 'Backend\Rekap::rekap_premi');
 $routes->get('/panel/rekap-kegiatan', 'Backend\Rekap::index');
 $routes->get('/panel/faq', 'Backend\FAQ::index');
+$routes->get('/panel/saran', 'Backend\Saran::index');
+
 
 
 // $routes->get('/detail_artikel/(:any)/(:num)', 'Informasi::detail_artikel/$1/$2');

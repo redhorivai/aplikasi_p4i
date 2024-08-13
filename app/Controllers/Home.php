@@ -4,14 +4,17 @@ namespace App\Controllers;
 
 // use App\Models\Backend\LayananModel;
 use App\Models\Backend\ArtikelModel;
+use App\Models\Backend\BeritaModel;
 use App\Models\Backend\InstansiModel;
 use App\Models\Backend\PenggunaModel;
 use App\Libraries\Date\DateFunction;
+
 
 class Home extends BaseController
 {
     // protected $m_layanan;
     protected $m_artikel;
+    protected $m_berita;
     protected $m_instansi;
     protected $m_pengguna;
     protected $session;
@@ -19,6 +22,7 @@ class Home extends BaseController
     {
         // $this->m_layanan  = new LayananModel();
         $this->m_artikel  = new ArtikelModel();
+        $this->m_berita  = new BeritaModel();
         $this->m_instansi = new InstansiModel();
         $this->m_pengguna = new PenggunaModel();
         $this->date       = new DateFunction();
@@ -29,7 +33,7 @@ class Home extends BaseController
     {
         
         // ARTIKEL
-        $artikel = $this->m_artikel->getBerita();
+        $artikel = $this->m_berita->getBerita();
         $resArtikel = "";
         if (count($artikel) > 0) {
             foreach ($artikel as $res) {
@@ -97,7 +101,7 @@ class Home extends BaseController
             'menu'               => 'home',
             'resLayananUnggulan' => $resLayananUnggulan,
             'resArtikel'         => $resArtikel,
-            'artikelFooter'      => $this->m_artikel->getLimit('3'),
+            'artikelFooter'      => $this->m_berita->getLimit('3'),
             'dataInstansi'       => $this->m_instansi->getInstansi(),
         ];
         return view('front/pages/beranda', $data);

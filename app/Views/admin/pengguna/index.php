@@ -62,5 +62,7 @@
 
     <!-- SECTION FORM -->
     <div id='formData' class='br-pagebody d-none'></div>
+    <div class='modal fade' id='modaldetail' role='dialog' aria-hidden='true'></div>
+
     <!-- END SECTION FORM -->
 <?= $this->endSection() ?>

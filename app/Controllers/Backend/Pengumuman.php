@@ -283,70 +283,70 @@ class Pengumuman extends BaseController
         }
         echo json_encode($msg);
     }
-    // public function del_data()
-    // {
-    //     if ($this->request->isAJAX()) {
-    //         $id = $this->request->getPost('artikel_id');
-    //         $data = [
-    //             'nullified_user' => session()->get('user_id'),
-    //             'nullified_dttm' => date('Y-m-d H:i:s'),
-    //             'status_cd'      => 'nullified',
-    //         ];
-    //         $this->m_artikel->updateData($id, $data);
-    //         $msg = ['sukses' => 'Artikel telah dihapus.'];
-    //         echo json_encode($msg);
-    //     } else {
-    //         exit('Request Error');
-    //     }
-    // }
-    // public function multi_del()
-    // {
-    //     if ($this->request->isAJAX()) {
-    //         $id = $this->request->getPost('artikel_id');
-    //         $jmldata = count($id);
-    //         for ($i = 0; $i < $jmldata; $i++){
-    //             $data = [
-    //                 'nullified_user' => session()->get('user_id'),
-    //                 'nullified_dttm' => date('Y-m-d H:i:s'),
-    //                 'status_cd'      => 'nullified',
-    //             ];
-    //             $this->m_artikel->updateData($id[$i], $data);
-    //         }
-    //         $msg = ['sukses' => '<b style="margin-left:10px;"> '.$jmldata.' data</b> artikel telah dihapus.'];
-    //         echo json_encode($msg);
-    //     } else {
-    //         exit('Request Error');
-    //     }
-    // }
-    // public function detail()
-    // {
-    //     if ($this->request->isAJAX()) {
-    //         $id      = $this->request->getPost('artikel_id');
-    //         $artikel = $this->m_artikel->getByID($id);
+    public function del_data()
+    {
+        if ($this->request->isAJAX()) {
+            $id = $this->request->getPost('id');
+            $data = [
+                'nullified_user' => session()->get('user_id'),
+                'nullified_dttm' => date('Y-m-d H:i:s'),
+                'status_cd'      => 'nullified',
+            ];
+            $this->m_pengumuman->updateData($id, $data);
+            $msg = ['sukses' => 'Artikel telah dihapus.'];
+            echo json_encode($msg);
+        } else {
+            exit('Request Error');
+        }
+    }
+    public function multi_del()
+    {
+        if ($this->request->isAJAX()) {
+            $id = $this->request->getPost('id');
+            $jmldata = count($id);
+            for ($i = 0; $i < $jmldata; $i++){
+                $data = [
+                    'nullified_user' => session()->get('user_id'),
+                    'nullified_dttm' => date('Y-m-d H:i:s'),
+                    'status_cd'      => 'nullified',
+                ];
+                $this->m_pengumuman->updateData($id[$i], $data);
+            }
+            $msg = ['sukses' => '<b style="margin-left:10px;"> '.$jmldata.' data</b> pengumuman telah dihapus.'];
+            echo json_encode($msg);
+        } else {
+            exit('Request Error');
+        }
+    }
+    public function detail()
+    {
+        if ($this->request->isAJAX()) {
+            $id      = $this->request->getPost('id');
+            $pengumuman = $this->m_pengumuman->getByID($id);
 
-    //         $ret = "";
-    //         $no = 1;
-    //         foreach ($artikel as $key) {
-    //             $ret .= "<div class='modal-dialog modal-lg' role='document'>
-    //                      <div class='modal-content'>
-    //                      <div class='modal-header'>
-    //                      <h5 class='text-center text-dark w-100'><b>".$key->title."</b><br><small class='w-100' style='font-size:12px;color:#888;'>Admin | ".$this->date->panjang($key->created_dttm)."</small></h5>
-    //                      </div>
-    //                      <div class='modal-body'>
-    //                      <div class='bd rounded table-responsive table-hover' style='overflow-y:scroll;max-height:406px;padding:20px;'>
-    //                      ".$key->description."
-    //                      </div>
-    //                      </div>
-    //                      <div class='modal-footer'>
-    //                      <button type='button' class='btn btn-block btn-light' data-dismiss='modal' style='font-size:11px;'>Tutup
-    //                      </button>
-    //                      </div>
-    //                      </div>
-    //                      </div>";
-    //         }
-    //         return $ret;
-    //     } else {
-    //         exit('Request Error');
-    //     }
-    // }
+            $ret = "";
+            $no = 1;
+            foreach ($pengumuman as $key) {
+                $ret .= "<div class='modal-dialog modal-lg' role='document'>
+                         <div class='modal-content'>
+                         <div class='modal-header'>
+                         <h5 class='text-center text-dark w-100'><b>".$key->judul."</b><br><small class='w-100' style='font-size:12px;color:#888;'>Admin | ".$this->date->panjang($key->created_dttm)."</small></h5>
+                         </div>
+                         <div class='modal-body'>
+                         <div class='bd rounded table-responsive table-hover' style='overflow-y:scroll;max-height:406px;padding:20px;'>
+                         ".$key->keterangan."
+                         </div>
+                         </div>
+                         <div class='modal-footer'>
+                         <button type='button' class='btn btn-block btn-light' data-dismiss='modal' style='font-size:11px;'>Tutup
+                         </button>
+                         </div>
+                         </div>
+                         </div>";
+            }
+            return $ret;
+        } else {
+            exit('Request Error');
+        }
+    }
 }

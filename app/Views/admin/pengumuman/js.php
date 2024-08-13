@@ -250,56 +250,56 @@
           });
         }
     }
-    // function _delData(artikel_id, nama) {
-    //     Swal.fire({
-    //       title: 'Hapus Data?',
-    //       html: `<p class="mg-b-10">Anda akan menghapus artikel:</p><p><b>${nama}</b></p>`,
-    //       icon: 'warning',
-    //       showCancelButton: true,
-    //       showConfirmButton: true,
-    //       cancelButtonColor: '#d33',
-    //       confirmButtonColor: '#3085d6',
-    //       cancelButtonText: 'Tidak, batalkan',
-    //       confirmButtonText: 'Ya, proses',
-    //     }).then((result) => {
-    //         if (result.value) {
-    //           $.ajax({
-    //             type: "POST",
-    //             url: "<?= site_url('Backend/Artikel/del_data') ?>",
-    //             data: {
-    //               artikel_id: artikel_id
-    //             },
-    //             dataType: "JSON",
-    //             success: function(response) {
-    //               if (response.sukses) {
-    //                 Toast.fire({
-    //                   icon: "success",
-    //                   title: response.sukses,
-    //                 });
-    //                   $('#viewTable').DataTable().ajax.reload();
-    //               }
-    //             },
-    //             error: function(xhr, ajaxOptions, thrownError) {
-    //               alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
-    //             },
-    //           });
-    //         }
-    //     });
-    // }
-    // function _detail(artikel_id) {
-    //     $.ajax({
-    //         url  : "<?= site_url('Backend/Artikel/detail') ?>",
-    //         type : "POST",
-    //         data: {
-    //           artikel_id: artikel_id
-    //         },
-    //         success: function(response) {
-    //             $('#modaldetail').html(response);
-    //             $('#modaldetail').modal('show');
-    //         },
-    //         error: function(xhr, ajaxOptions, thrownError) {
-    //             alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
-    //         },
-    //     });      
-    // }
+    function _delData(id, judul) {
+        Swal.fire({
+          title: 'Hapus Data?',
+          html: `<p class="mg-b-10">Anda akan menghapus pengumuman:</p><p><b>${judul}</b></p>`,
+          icon: 'warning',
+          showCancelButton: true,
+          showConfirmButton: true,
+          cancelButtonColor: '#d33',
+          confirmButtonColor: '#3085d6',
+          cancelButtonText: 'Tidak, batalkan',
+          confirmButtonText: 'Ya, proses',
+        }).then((result) => {
+            if (result.value) {
+              $.ajax({
+                type: "POST",
+                url: "<?= site_url('Backend/Pengumuman/del_data') ?>",
+                data: {
+                  id: id
+                },
+                dataType: "JSON",
+                success: function(response) {
+                  if (response.sukses) {
+                    Toast.fire({
+                      icon: "success",
+                      title: response.sukses,
+                    });
+                      $('#viewTable').DataTable().ajax.reload();
+                  }
+                },
+                error: function(xhr, ajaxOptions, thrownError) {
+                  alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
+                },
+              });
+            }
+        });
+    }
+    function _detail(id) {
+        $.ajax({
+            url  : "<?= site_url('Backend/Pengumuman/detail') ?>",
+            type : "POST",
+            data: {
+              id: id
+            },
+            success: function(response) {
+                $('#modaldetail').html(response);
+                $('#modaldetail').modal('show');
+            },
+            error: function(xhr, ajaxOptions, thrownError) {
+                alert(xhr.status + "\n" + xhr.responseText + "\n" + thrownError);
+            },
+        });      
+    }
 </script>

@@ -5,7 +5,7 @@
   <!-- SECTION: SLIDER -->
   <section id="home" class="">
     <!-- <div class="container-fluid p-0" style="background-image: linear-gradient(to bottom, #10B018 , #5AFF15);"> -->
-    <div class="container-fluid p-0" style="background-image: url('/assets-front/images/3.jpg');background-size: cover;background-position: top;">
+    <div class="container-fluid p-0" style="background-image: url('/assets-front/images/banner_p4i_baru.jpg');background-size: cover;background-position: top;">
       <!-- Slider Revolution Start -->
       <div class="rev_slider_wrapper">
         <div class="rev_slider" data-version="5.0">
@@ -425,13 +425,13 @@
   </section> -->
 
   <!-- DIVIDER: FUNFACT -->
-  <section style="background: linear-gradient(45deg,#f1a357 0%,#f1a357 85%)">
+  <section style="background: linear-gradient(45deg,#E12531 0%,#E12531 85%)">
     <div class="container pt-60 pb-60">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 mb-md-50">
           <div class="funfact text-center">
             <i class="pe-7s-smile mt-5 text-white"></i>
-            <h2 class="animate-number text-white font-40 font-weight-500">Perkumpulan Pemberantasan Penyakit Parasitik Indoesia (P4I)</h2>
+            <h2 class="animate-number text-white font-40 font-weight-500">Perkumpulan Pemberantasan Penyakit Parasitik Indonesia (P4I)</h2>
             <h2 class="animate-number text-white font-40 font-weight-500">Indonesia Parasitic Diseases Control Association (IPDCA)</h2>
           </div>
         </div>

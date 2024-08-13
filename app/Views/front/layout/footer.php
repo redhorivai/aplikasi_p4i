@@ -1,12 +1,7 @@
 <footer id="footer" class="footer pb-0" data-bg-color="#25272e">
     <div class="container pt-90 pb-60">
       <div class="row">
-        <!-- <div class="col-sm-6 col-md-3">
-          <div class="widget dark"> <img src="<?= base_url(); ?>/assets-front/images/logo-bari-light.png">
-            <p class="font-12 mt-10 mb-10">Kesembuhan dan Kepuasan Pelanggan Adalah Kebahagiaan Kami</p>
-          </div>
-        </div> -->
-        <div class="col-sm-6 col-md-3">
+        <div class="col-sm-6 col-md-6">
           <div class="widget dark">
             <h5 class="widget-title line-bottom-theme-colored-2">Artikel Terbaru</h5>
             <div class="latest-posts">
@@ -41,52 +36,6 @@
                 }
               ?>
             </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="widget dark">
-            <h5 class="widget-title line-bottom-theme-colored-2">Link Cepat</h5>
-            <!-- <ul class="list list-border" style="padding:0px">
-              <li style="margin:0px;padding:0px;"><a href="<?= base_url('/profil/tentangkami'); ?>">Tentang Kami</a></li>
-              <li style="margin:0px;padding:0px;"><a href="<?= base_url('/profil/visimisi'); ?>">Visi dan Misi</a></li>
-              <li style="margin:0px;padding:0px;"><a href="<?= base_url('/pelayanan/standar_pelayanan'); ?>">Standar Pelayanan</a></li>
-              <li style="margin:0px;padding:0px;"><a href="<?= base_url('/pelayanan/layanan_unggulan'); ?>">Layanan Unggulan</a></li>
-              <li style="margin:0px;padding:0px;"><a href="<?= base_url('/informasi/poli'); ?>">Informasi Dokter</a></li>
-              <li style="margin:0px;padding:0px;"><a href="<?= base_url('/informasi/bed'); ?>">Infromasi Bed</a></li>
-              <li style="margin:0px;padding:0px;"><a href="<?= base_url('/pasien/alur_pelayanan'); ?>">Alur Pelayanan</a></li>
-              <li style="margin:0px;padding:0px;"><a href="<?= base_url('/pasien/tata_tertib'); ?>">Tata Tertib</a></li>
-              <li style="margin:0px;padding:0px;"><a href="<?= base_url('/kontak'); ?>">Kontak</a></li>
-            </ul> -->
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="widget dark">
-            <h5 class="widget-title line-bottom-theme-colored-2">Legal</h5>
-            <ul class="list list-border" style="padding:0px">
-              <li style="margin:0px;padding:0px;"><a href="javascript:void(0)">Kebijakan Privasi</a></li>
-              <li style="margin:0px;padding:0px;"><a href="javascript:void(0)">Syarat dan Ketentuan</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="widget dark">
-            <!-- <h5 class="widget-title line-bottom-theme-colored-2">Jam Operasional</h5>
-            <div class="opening-hours">
-              <ul class="list list-border">
-                <li class="clearfix">
-                  <span class="text-white"><i class="fa fa-clock-o mr-5"></i> Senin - Jumat</span>
-                  <div class="value pull-right"> 08.00 - 12.00 WIB </div>
-                </li>
-                <li class="clearfix"> 
-                  <span class="text-white"><i class="fa fa-clock-o mr-5"></i> Sabtu </span>
-                  <div class="value pull-right"> 08.00 - 12.00 WIB </div>
-                </li>
-                <li class="clearfix"> 
-                  <span class="text-white"><i class="fa fa-clock-o mr-5"></i> Ahad</span>
-                  <div class="value pull-right"> 09.30 - 18.00 WIB </div>
-                </li>
-              </ul>
-            </div> -->
           </div>
         </div>
       </div>
@@ -133,7 +82,8 @@
     <div class="container-fluid bg-theme-colored p-20">
       <div class="row text-center">
         <div class="col-md-12">
-          <p class="text-white font-11 m-0">Copyright &copy;2020 Sribertech (redhorivai). All Rights Reserved</p>
+          <p class="text-white font-11 m-0">Copyright <script>document.write(new Date().getFullYear())</script>
+          binarykid. All Rights Reserved</p>
         </div>
       </div>
     </div>

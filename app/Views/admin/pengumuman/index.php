@@ -32,7 +32,7 @@
                 </div>
                 <!-- END BUTTON ADD -->
                 <!-- TABLE -->
-                <?= form_open('Backend/Artikel/multi_del', ['class' => 'formMultiDelete']) ?>
+                <?= form_open('Backend/Pengumuman/multi_del', ['class' => 'formMultiDelete']) ?>
                 <table id="viewTable" class="table display responsive w-100">
                   <thead>
                     <tr>
